@@ -1,0 +1,21 @@
+# ninja log v5
+1	465	7406211387985710	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/am_resources.o	da4a826b89ec44c9
+467	564	7406211389075717	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/DejaVuSerif8pt1b.o	fbc1ac26132ae2f7
+570	1012	7406211393455718	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/am_util_delay.o	62b09a0aa45fdfa2
+1014	1138	7406211394755720	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/DejaVuSerif8pt2b.o	fb7f5e4c5d42335f
+1141	1306	7406211396465718	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/am_util_stdio.o	84907c458672717d
+1309	1922	7406211402535716	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/am_devices_display_generic.o	6df8cec65f7936a0
+1924	2084	7406211404225714	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/DejaVuSerif8pt4b.o	aeaca265e4865191
+2088	2654	7406211409845710	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/nema_dc_hal.o	d3c0226a1fd57f4e
+2656	2881	7406211412205718	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/DejaVuSerif8pt8b.o	4607184acf81e75b
+2885	2936	7406211412765722	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/nema_event.o	925acb934fcded91
+2939	3434	7406211417658643	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/nema_hal.o	2fe64c3cd828d98e
+3437	3508	7406211418488661	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/simhei16pt1b.o	e676506710564c3d
+3511	3590	7406211419288652	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/simhei16pt2b.o	49c7976969e41f72
+3592	3681	7406211420208667	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/simhei16pt4b.o	59979df50fb19575
+3683	4172	7406211425050769	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/nema_utils.o	d4d3ff273780fa6a
+4174	4746	7406211430776479	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/nemagfx_font_render.o	673aa3e5b18f3d8d
+4749	4861	7406211432006486	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/simhei16pt8b.o	6952e06fc14adbe6
+4865	4932	7406211432726476	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/startup_iar.o	7b58b00f199f93dd
+4935	5236	7406211435608899	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/nemagfx_font_render.out	9441993709970213
+5238	5253	7406211436028910	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_font_render/iar/bin/nemagfx_font_render.bin	6c1f4deaaabaf428

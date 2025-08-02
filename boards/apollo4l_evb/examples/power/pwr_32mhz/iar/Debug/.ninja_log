@@ -1,0 +1,14 @@
+# ninja log v5
+0	447	7406130610462577	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/am_devices_led.o	475d068ded73830b
+449	871	7406130614703077	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/am_util_faultisr.o	d8964b3db44c601b
+876	1291	7406130618880069	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/am_util_id.o	9041d7ce1d13a42d
+1293	1700	7406130623000066	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/am_resources.o	1085765159ee67db
+1704	2114	7406130627131853	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/am_util_delay.o	c0d16a9d4fa4ef3e
+2116	2278	7406130628841854	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/am_util_stdio.o	869aa4bfd2e801ba
+2280	2706	7406130633061856	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/pwr_gpio_utils.o	2ed3c4e2f88e17a3
+2708	3148	7406130637318293	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/pwr_32mhz.o	5958bad419ee051a
+3150	3583	7406130641818295	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/pwr_control_utils.o	6e47a365d69488af
+3585	4009	7406130646079781	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/pwr_timer_utils.o	137473665df82cdf
+4012	4076	7406130646841069	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/startup_iar.o	6b22c5b40b66210b
+4079	4200	7406130647991055	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/pwr_32mhz.out	2b088cc49e3ea7e7
+4202	4213	7406130648291069	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_32mhz/iar/bin/pwr_32mhz.bin	73ffa3554c6cb6a3

@@ -1,0 +1,13 @@
+# ninja log v5
+1	466	7406197312254664	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/am_resources.o	6374c6e0d29b95fd
+469	633	7406197313982521	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/am_util_stdio.o	a0afc1496450f9d0
+637	1085	7406197318413471	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/pwr_gpio_utils.o	bb109e85d01babb8
+1087	1543	7406197323003478	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/am_util_faultisr.o	4197d6dfad508e34
+1547	1991	7406197327501847	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/am_util_delay.o	21ad97bbbf8d9983
+1993	2457	7406197332101842	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/pwr_control_utils.o	b519ded0388feeca
+2460	2938	7406197336955945	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_utils.o	4c1216dc710f5fd7
+2941	3006	7406197337715935	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/startup_iar.o	ea9459b5e70a29c
+3008	3462	7406197342195937	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/pwr_timer_utils.o	5d439404b5c37f49
+3463	3964	7406197347204541	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.o	ad34268937d155d6
+3966	4128	7406197348844539	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.out	a67b6446b60ab4b6
+4130	4143	7406197349174554	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.bin	e072acc29659e5e7

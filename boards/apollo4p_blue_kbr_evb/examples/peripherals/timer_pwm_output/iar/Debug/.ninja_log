@@ -1,0 +1,11 @@
+# ninja log v5
+1	486	7406158115127767	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/peripherals/timer_pwm_output/iar/bin/am_devices_led.o	751032abd19a3704
+488	946	7406158119736325	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/peripherals/timer_pwm_output/iar/bin/am_util_delay.o	c6558088a5a97700
+950	1117	7406158121526318	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/peripherals/timer_pwm_output/iar/bin/am_util_stdio.o	2a61d76d02ae3b4
+1119	1562	7406158125909792	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/peripherals/timer_pwm_output/iar/bin/am_resources.o	f76114bfd7ebc5da
+1564	2021	7406158130493954	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/peripherals/timer_pwm_output/iar/bin/low_power_config.o	10409f00e788b94b
+2024	2492	7406158135175847	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/peripherals/timer_pwm_output/iar/bin/am_util_faultisr.o	3f0cb25273e763fb
+2495	2991	7406158140189664	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/peripherals/timer_pwm_output/iar/bin/timer_pwm_output.o	c4afca9833eaba76
+2994	3064	7406158140989661	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/peripherals/timer_pwm_output/iar/bin/startup_iar.o	b3143ca0d10ff0c5
+3067	3199	7406158142229635	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/peripherals/timer_pwm_output/iar/bin/timer_pwm_output.out	8894bd8e18cec5ce
+3201	3213	7406158142589642	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/peripherals/timer_pwm_output/iar/bin/timer_pwm_output.bin	9bb3b5d1570e5446

@@ -1,0 +1,15 @@
+# ninja log v5
+1	629	7406211241368680	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/am_devices_display_generic.o	7f9d9b68fbbef94b
+631	683	7406211241998683	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/nema_event.o	ec0188aabfe8da45
+688	1181	7406211246883583	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/nema_utils.o	abed29dc86a954bc
+1183	1236	7406211247533584	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/rtos.o	9ba9c21958efeefe
+1239	2174	7406211256801877	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/nemagfx_extended_arcs.o	408faff8b62ea0ba
+2177	2668	7406211261757548	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/nema_hal.o	c008dc2eb3203368
+2671	3154	7406211266625570	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/gui_task.o	112fc61690848382
+3157	3322	7406211268395571	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/am_util_stdio.o	174622fe73bf5be
+3325	3764	7406211272731184	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/am_resources.o	1f665df0656cd969
+3766	4333	7406211278408509	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/nema_dc_hal.o	3fb920c28b518b01
+4336	4779	7406211282874157	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/am_util_delay.o	12ab17bd2c780ddb
+4781	4848	7406211283644132	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/startup_iar.o	314cc754decdbdde
+4851	5105	7406211286092100	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/nemagfx_extended_arcs.out	483caa3c0db6a997
+5107	5123	7406211286489035	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_extended_arcs/iar/bin/nemagfx_extended_arcs.bin	e4d86368254db225

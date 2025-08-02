@@ -1,0 +1,11 @@
+# ninja log v5
+1	438	7406128058261038	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/pdm_to_i2s/iar/bin/am_resources.o	ece3671af2d9108f
+440	981	7406128063723834	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/pdm_to_i2s/iar/bin/pdm_to_i2s.o	5a0392da18951a94
+986	1681	7406128070749716	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/pdm_to_i2s/iar/bin/SEGGER_RTT.o	3660355a54e0b120
+1684	2935	7406128083310859	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/pdm_to_i2s/iar/bin/am_util_stdio.o	e154d3375b99edf
+2937	3435	7406128088267928	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/pdm_to_i2s/iar/bin/am_util_faultisr.o	3e30a53077c88b1b
+3437	3852	7406128092428018	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/pdm_to_i2s/iar/bin/am_util_delay.o	167919100eea04d4
+3855	5338	7406128107331178	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/pdm_to_i2s/iar/bin/SEGGER_RTT_printf.o	6ca69080b1485b17
+5340	5414	7406128108100802	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/pdm_to_i2s/iar/bin/startup_iar.o	1aeeed0a341aa7f7
+5415	5541	7406128109277632	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/pdm_to_i2s/iar/bin/pdm_to_i2s.out	39eb7f3a49e37afa
+5543	5556	7406128109633255	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/pdm_to_i2s/iar/bin/pdm_to_i2s.bin	bc3c576c6815c512

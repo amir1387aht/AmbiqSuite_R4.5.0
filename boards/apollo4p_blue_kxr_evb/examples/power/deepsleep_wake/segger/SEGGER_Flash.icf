@@ -1,0 +1,37 @@
+//******************************************************************************
+//
+// Linker file for Segger Embedded Studio linker configuration.
+//
+//******************************************************************************
+
+// Define Memory Regions
+define memory with size = 4G; 
+define region MCU_MRAM      = [from 0x00018000 size 0x001E8000];
+define region MCU_TCM       = [from 0x10000000 size 0x00001F00];
+define region SHARED_SRAM   = [from 0x10001F00 size 0x00000100];
+
+// Thread-local-storage load image
+define block tbss                           { section .tbss,      section .tbss.*  };
+define block tdata                          { section .tdata,     section .tdata.* };
+define block tls with fixed order           { block tbss, block tdata };
+define block tdata_load                     { copy of block tdata };
+
+// Define Blocks
+define block heap  with size =    0, alignment = 8, readwrite access { };
+define block stack with size = 2048, alignment = 8, readwrite access { };
+define block shared                         { section .shared,      section .shared.*   };
+
+define block FLASHBASE                      { section .patch };
+
+// Configure Initialization
+do not initialize                       { section .non_init, section .non_init.*};
+initialize by copy with packing=auto    { section .data, section .data.* };
+initialize by symbol __SEGGER_init_heap { block heap  };
+
+// Place Inputs
+place at start of MCU_MRAM              { section .vectors, block FLASHBASE };
+place in MCU_MRAM                       { readexec, readonly };
+place in MCU_MRAM                       { block tdata_load };
+place in MCU_TCM with auto order        { block tls, readwrite, zeroinit };
+place in MCU_TCM with fixed order       { block heap, block stack };
+place at start of SHARED_SRAM           { block shared };

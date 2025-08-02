@@ -1,0 +1,40 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="libam_bsp" target="8" version="2">
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Level 2 balanced" />
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="Level 2"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Level 2 balanced" />
+  <project Name="libam_bsp">
+    <configuration
+      Name="Common"
+      arm_architecture="v7EM"
+      arm_compiler_variant="SEGGER"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_fp_abi="Hard"
+      project_directory=""
+      project_type="Library" />
+    <configuration
+      Name="Debug"
+      arm_compiler_variant="SEGGER"
+      build_output_directory="bin"
+      c_preprocessor_definitions="segger;AM_PART_APOLLO4P;B_USE_DPHYPLL=true;AM_PACKAGE_BGA"
+      c_preprocessor_undefinitions="DEBUG"
+      c_user_include_directories="../../../../devices;../../../../CMSIS/AmbiqMicro/Include;../../../../utils;../../../../mcu/apollo4p;../../../../CMSIS/ARM/Include"
+      gcc_c_language_standard="c11" />
+	          <folder Name="source_files">
+            <file file_name=".././am_bsp.c" />
+            <file file_name=".././am_bsp_pins.c" />
+          </folder>
+  </project>
+</solution>
+

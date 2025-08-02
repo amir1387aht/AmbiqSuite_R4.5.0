@@ -1,0 +1,9 @@
+# ninja log v5
+0	461	7406195171852580	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/memory/dtcm_reservation/iar/bin/am_resources.o	7574801bef6a796a
+464	527	7406195172602583	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/memory/dtcm_reservation/iar/bin/startup_iar.o	6ccb770994e0c43c
+532	992	7406195177139902	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/memory/dtcm_reservation/iar/bin/am_util_faultisr.o	d374abfef9c7681
+993	1483	7406195182049910	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/memory/dtcm_reservation/iar/bin/dtcm_reservation.o	9d0437d801e7c36e
+1486	1938	7406195186607349	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/memory/dtcm_reservation/iar/bin/am_util_delay.o	4344a4de552d5632
+1941	2103	7406195188344994	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/memory/dtcm_reservation/iar/bin/am_util_stdio.o	5935d70a7edac6f6
+2106	2233	7406195189564990	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/memory/dtcm_reservation/iar/bin/dtcm_reservation.out	91c06a8dec4f9f1b
+2236	2248	7406195189875006	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/memory/dtcm_reservation/iar/bin/dtcm_reservation.bin	319c52dfa21366f5

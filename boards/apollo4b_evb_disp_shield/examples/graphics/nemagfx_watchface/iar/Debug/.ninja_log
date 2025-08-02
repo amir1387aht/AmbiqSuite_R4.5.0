@@ -1,0 +1,24 @@
+# ninja log v5
+1	186	7406089245530287	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/am_util_stdio.o	e7523b0dee44ab2c
+188	631	7406089249887121	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/am_util_delay.o	ab5fb5f5bc5353f6
+635	757	7406089251227132	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/event_groups.o	8f273825c32ebbbd
+760	1236	7406089255935179	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/gui_task.o	22981eaa92e21c2
+1240	1681	7406089260375051	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/am_resources.o	d7549d995192d777
+1684	2279	7406089266352468	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/am_devices_display_generic.o	3ad31063cacdc014
+2282	2776	7406089271339432	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/rtos.o	92a00237602ced2f
+2779	2898	7406089272659428	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/heap_4.o	4f48fdf95685beea
+2902	3393	7406089277494018	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/nema_hal.o	ce9ea6788dff7da2
+3396	3481	7406089278479391	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/list.o	f7947672a4ae6704
+3484	4047	7406089284021269	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/nema_dc_hal.o	5056149511c3932d
+4049	4098	7406089284651252	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/nema_event.o	6de3ded49c0a03e5
+4101	4613	7406089289688400	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/nemagfx_watchface.o	5d8896dedf77e491
+4615	4834	7406089291998402	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/queue.o	abf57856c5ecee35
+4837	5322	7406089296811949	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/nema_utils.o	b20bef95310a7f10
+5325	5855	7406089302127755	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/port.o	6df27108d218eeeb
+5859	5922	7406089302897710	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/startup_iar.o	43f26df10d4aa9b2
+5925	6081	7406089304451375	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/timers.o	2c42e815b7538aa9
+6083	7976	7406089323341241	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/watch.o	7435fc8d82366aca
+7978	8019	7406089323851227	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/portasm.o	e0b3438365f3ef71
+8021	8424	7406089327895648	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/tasks.o	b8c80cc715ea20c6
+8426	8695	7406089330500582	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/nemagfx_watchface.out	5c247abc312b756c
+8698	8715	7406089330900522	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_watchface/iar/bin/nemagfx_watchface.bin	c39b0f18bad15d6

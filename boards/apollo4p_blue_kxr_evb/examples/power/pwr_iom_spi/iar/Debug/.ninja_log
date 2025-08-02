@@ -1,0 +1,13 @@
+# ninja log v5
+1	463	7406191121157182	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/am_resources.o	82c216e1b39acecd
+465	628	7406191122877166	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/am_util_stdio.o	9cf0fb534b2e7504
+633	1079	7406191127255199	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/am_util_delay.o	d368dfbe412ca80f
+1080	1522	7406191131745920	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/pwr_gpio_utils.o	dc852ce7b77791d5
+1527	1987	7406191136393925	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/pwr_control_utils.o	47a2c28df020d211
+1990	2442	7406191140928688	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/am_util_faultisr.o	bc16e195942c774e
+2444	2949	7406191145972055	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_utils.o	97ff3a0ea070ba51
+2952	3449	7406191150992844	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.o	9a14fc934f21ea7f
+3451	3516	7406191151752858	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/startup_iar.o	8a1c39d422e40595
+3519	3970	7406191156216962	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/pwr_timer_utils.o	62382e443ddce149
+3972	4114	7406191157656952	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.out	73fd3426e06ee2fc
+4117	4130	7406191157976964	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.bin	515172797e58dfae

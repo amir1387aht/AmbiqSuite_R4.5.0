@@ -1,0 +1,9 @@
+# ninja log v5
+0	476	7406089697386620	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/interfaces/mspi_octal_example/iar/bin/am_resources.o	438f833fb7168859
+478	545	7406089698146709	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/interfaces/mspi_octal_example/iar/bin/startup_iar.o	8a6d98f2ae375166
+550	712	7406089699836615	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/interfaces/mspi_octal_example/iar/bin/am_util_stdio.o	8422ecc021d4843a
+714	1161	7406089704216619	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/interfaces/mspi_octal_example/iar/bin/am_util_delay.o	8da3d4acbcc69904
+1163	1631	7406089708933335	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/interfaces/mspi_octal_example/iar/bin/am_util_faultisr.o	43a23afeffb02437
+1634	2396	7406089716565706	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/interfaces/mspi_octal_example/iar/bin/mspi_octal_example.o	19e15dbfb27c8268
+2399	2562	7406089718225709	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/interfaces/mspi_octal_example/iar/bin/mspi_octal_example.out	1861c8b175f4a767
+2565	2579	7406089718595704	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/interfaces/mspi_octal_example/iar/bin/mspi_octal_example.bin	ee145e3857bcc262

@@ -1,0 +1,10 @@
+# ninja log v5
+0	634	7406214984009427	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/interfaces/mspi_ddr_octal_psram_example/iar/bin/am_devices_mspi_psram_aps12808l.o	3035ea86d68bd571
+637	801	7406214985775085	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/interfaces/mspi_ddr_octal_psram_example/iar/bin/am_util_stdio.o	fbe7d7b27cc5bdee
+806	1246	7406214990149397	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/interfaces/mspi_ddr_octal_psram_example/iar/bin/am_util_delay.o	aa5fcbb2e8d6c559
+1248	1685	7406214994541855	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/interfaces/mspi_ddr_octal_psram_example/iar/bin/am_resources.o	624c4886af2fa19f
+1688	2160	7406214999277488	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/interfaces/mspi_ddr_octal_psram_example/iar/bin/am_util_faultisr.o	bdcd099c4feaa36c
+2162	2660	7406215004279891	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/interfaces/mspi_ddr_octal_psram_example/iar/bin/mspi_ddr_octal_psram_example.o	a394e92b08b276f
+2663	2729	7406215005049895	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/interfaces/mspi_ddr_octal_psram_example/iar/bin/startup_iar.o	763a313aadd44f5b
+2732	2914	7406215006815542	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/interfaces/mspi_ddr_octal_psram_example/iar/bin/mspi_ddr_octal_psram_example.out	a637ed0b40de0ed7
+2917	2930	7406215007155544	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/interfaces/mspi_ddr_octal_psram_example/iar/bin/mspi_ddr_octal_psram_example.bin	1b88776bf45bd497

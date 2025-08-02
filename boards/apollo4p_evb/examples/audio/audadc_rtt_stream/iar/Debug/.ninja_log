@@ -1,0 +1,12 @@
+# ninja log v5
+0	493	7406194064630126	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/am_devices_led.o	b3e2b7431e2845b3
+496	659	7406194066355815	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_stdio.o	46b6c3b5509e0a38
+664	1127	7406194070965809	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_faultisr.o	c9da456c02c1bfcb
+1128	1599	7406194075631239	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/am_resources.o	4b7427bf8137d40e
+1603	2106	7406194080711186	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.o	953b92cc5c9f9729
+2109	2557	7406194085229712	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_delay.o	7f54ed1a09de2f
+2559	2630	7406194086055319	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/startup_iar.o	12c9704fe0816409
+2633	2755	7406194087281088	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/SEGGER_RTT_printf.o	84ff090d3d8a983a
+2756	2982	7406194089571078	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/SEGGER_RTT.o	e3d7961ae84af4c0
+2985	3126	7406194090911086	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.out	7d7534c9e387a4f3
+3129	3142	7406194091271088	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.bin	23e557625d5b4b9d

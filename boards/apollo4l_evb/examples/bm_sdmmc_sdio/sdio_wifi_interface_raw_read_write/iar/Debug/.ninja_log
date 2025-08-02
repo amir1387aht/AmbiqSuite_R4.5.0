@@ -1,0 +1,12 @@
+# ninja log v5
+0	68	7406128285902979	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/am_util_debug.o	7ea3491962dbaa6a
+70	481	7406128289933985	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/am_util_delay.o	dacb338c6d3cc677
+485	905	7406128294165632	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/am_util_faultisr.o	8952af87eabd5a70
+907	1317	7406128298313925	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/am_resources.o	dfd1e3b6782e7707
+1320	1735	7406128302473916	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/am_util_id.o	253fcc2d625ccf3e
+1737	2191	7406128307029968	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/am_devices_sdio_rs9116.o	8a6c0e0b50b29e09
+2194	2355	7406128308756566	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/am_util_stdio.o	a79f607b9d5add0f
+2358	2801	7406128313136549	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/sdio_wifi_interface_raw_read_write.o	21900e56e51efa8c
+2803	2863	7406128313846944	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/startup_iar.o	9b31a5c9495594d0
+2866	2987	7406128314995368	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/sdio_wifi_interface_raw_read_write.out	dcfa13e25b9a8808
+2991	3003	7406128315321003	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/bm_sdmmc_sdio/sdio_wifi_interface_raw_read_write/iar/bin/sdio_wifi_interface_raw_read_write.bin	f8ddcbe3c2041371

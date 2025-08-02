@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['jbuf_5fcrank_5fdest_0',['JBUF_CRANK_DEST',['../jpegint_8h.html#a1f0803342372ac62b6903c399399c874af6e4aa152203a774ee81024b994bc786',1,'jpegint.h']]],
+  ['jbuf_5fpass_5fthru_1',['JBUF_PASS_THRU',['../jpegint_8h.html#a1f0803342372ac62b6903c399399c874ac4537a68c2b4991aa0aa16bfd364faf4',1,'jpegint.h']]],
+  ['jbuf_5fsave_5fand_5fpass_2',['JBUF_SAVE_AND_PASS',['../jpegint_8h.html#a1f0803342372ac62b6903c399399c874aedb54e7419f575f61531cd66a6eb2447',1,'jpegint.h']]],
+  ['jbuf_5fsave_5fsource_3',['JBUF_SAVE_SOURCE',['../jpegint_8h.html#a1f0803342372ac62b6903c399399c874a9bd990af3f9fa4181bfb4783515c583d',1,'jpegint.h']]],
+  ['jcs_5fcmyk_4',['JCS_CMYK',['../jpeglib_8h.html#a6ea40239360b06efe6377f125f1134f3abdb5b238d1ef4466940b38661dbb96d7',1,'jpeglib.h']]],
+  ['jcs_5fgrayscale_5',['JCS_GRAYSCALE',['../jpeglib_8h.html#a6ea40239360b06efe6377f125f1134f3ae78d37fdaf2cc3965ff6292416c48dbe',1,'jpeglib.h']]],
+  ['jcs_5frgb_6',['JCS_RGB',['../jpeglib_8h.html#a6ea40239360b06efe6377f125f1134f3aea1348cf43a3ffbf0cd106348892aadf',1,'jpeglib.h']]],
+  ['jcs_5funknown_7',['JCS_UNKNOWN',['../jpeglib_8h.html#a6ea40239360b06efe6377f125f1134f3a90154e80d8f678d56c5de1e5dd70b8a9',1,'jpeglib.h']]],
+  ['jcs_5fycbcr_8',['JCS_YCbCr',['../jpeglib_8h.html#a6ea40239360b06efe6377f125f1134f3aa7b960bbc9431d1fde0931e7a7baeab5',1,'jpeglib.h']]],
+  ['jcs_5fycck_9',['JCS_YCCK',['../jpeglib_8h.html#a6ea40239360b06efe6377f125f1134f3a67db8b44e162e43c905031eba3709081',1,'jpeglib.h']]],
+  ['jdct_5ffloat_10',['JDCT_FLOAT',['../jpeglib_8h.html#ae4245c819e9217a321fb23f1a106d563a748cd1281f991e3f98bbf5006838a448',1,'jpeglib.h']]],
+  ['jdct_5fifast_11',['JDCT_IFAST',['../jpeglib_8h.html#ae4245c819e9217a321fb23f1a106d563a31b4bdb5cdc228f09cb24473259d8c22',1,'jpeglib.h']]],
+  ['jdct_5fislow_12',['JDCT_ISLOW',['../jpeglib_8h.html#ae4245c819e9217a321fb23f1a106d563aa2f15b04cf9e8dab9be4b1ef288eed81',1,'jpeglib.h']]],
+  ['jdither_5ffs_13',['JDITHER_FS',['../jpeglib_8h.html#a23ab65fc4cdbe8bb0ac7a8ca76d29653a7f7feeacbd12d1262bbd88ee52cf84f5',1,'jpeglib.h']]],
+  ['jdither_5fnone_14',['JDITHER_NONE',['../jpeglib_8h.html#a23ab65fc4cdbe8bb0ac7a8ca76d29653a6bae8294ba0c1f8e64cd15ae578d23b5',1,'jpeglib.h']]],
+  ['jdither_5fordered_15',['JDITHER_ORDERED',['../jpeglib_8h.html#a23ab65fc4cdbe8bb0ac7a8ca76d29653acb163b5e467e2499bf4b3c530f8d219e',1,'jpeglib.h']]],
+  ['jmessage_16',['JMESSAGE',['../cderror_8h.html#a0a4ecb07eb88e2b694f3520a81f3d783a5a6577e5e6c8377e89510378ea4980dc',1,'JMESSAGE:&#160;cderror.h'],['../jerror_8h.html#a86a87dc9b2ee5c211e734d4dfd3fc493a5a6577e5e6c8377e89510378ea4980dc',1,'JMESSAGE:&#160;jerror.h']]]
+];

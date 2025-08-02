@@ -1,0 +1,12 @@
+# ninja log v5
+1	696	7406156393004067	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/am_devices_cooper.o	f5e09d405abd369
+699	857	7406156394729741	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/am_util_stdio.o	47ba9fee9079480
+862	1370	7406156399765381	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/am_util_ble_cooper.o	79f99a2db8c8860f
+1371	1808	7406156404163072	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/am_resources.o	bc224c7ffc5748f1
+1812	2259	7406156408648704	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/am_util_delay.o	33832fbd5981fd6e
+2262	2718	7406156413250044	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/am_util_faultisr.o	a48094181e1e8748
+2720	3209	7406156418147981	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/uart_ble_bridge.o	917df1555ad25b0a
+3212	3274	7406156418907987	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/startup_iar.o	a0577689e4dd8c54
+3277	3852	7406156424564733	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/dtm_main.o	8a60ae0a4ff4a38c
+3855	4055	7406156426600364	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/uart_ble_bridge.out	7c9637802e00c9a
+4058	4071	7406156426950373	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/ble/uart_ble_bridge/iar/bin/uart_ble_bridge.bin	8b7e46366b66f752

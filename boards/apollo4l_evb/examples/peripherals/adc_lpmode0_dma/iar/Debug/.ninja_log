@@ -1,0 +1,10 @@
+# ninja log v5
+0	469	7406128918643869	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/adc_lpmode0_dma.o	e9f1890904bffe9
+471	892	7406128922883871	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/am_util_faultisr.o	377eeff04b435170
+896	1333	7406128927287071	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/am_devices_led.o	7529d5f5d9549746
+1335	1736	7406128931325296	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/am_resources.o	cccdccf2e3757ed2
+1739	1901	7406128933045286	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/am_util_stdio.o	f09efb3923895f3b
+1903	2310	7406128937069825	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/am_util_delay.o	4eef8440ddb86060
+2312	2375	7406128937794180	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/startup_iar.o	4542d0ad627aaf65
+2378	2519	7406128939161577	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/adc_lpmode0_dma.out	871d3f526065f533
+2521	2533	7406128939451589	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/peripherals/adc_lpmode0_dma/iar/bin/adc_lpmode0_dma.bin	8d219061ad4fd309

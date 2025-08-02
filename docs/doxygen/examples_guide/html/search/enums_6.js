@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['gitem_5ftype_5fe_0',['gitem_type_e',['../nemagfx__gauge_2src_2generated_2NemaGUI_2include_2ng__gitem_8h.html#a08f6715cea45f1f49c66be08df80511e',1,'gitem_type_e:&#160;ng_gitem.h'],['../nemagfx__gauge_2src_2NemaGUI__Builder__project_2generated_2NemaGUI_2include_2ng__gitem_8h.html#a08f6715cea45f1f49c66be08df80511e',1,'gitem_type_e:&#160;ng_gitem.h'],['../nemagfx__nemagui__ambiq__logo_2src_2generated_2NemaGUI_2include_2ng__gitem_8h.html#a08f6715cea45f1f49c66be08df80511e',1,'gitem_type_e:&#160;ng_gitem.h'],['../nemagfx__nemagui__ambiq__logo_2src_2NemaGUI__Builder__project_2Ambiq_01Smartwatch__Files_2genera32f0d0af50ac3cd6175bbb9682e8ef5c.html#a08f6715cea45f1f49c66be08df80511e',1,'gitem_type_e:&#160;ng_gitem.h'],['../nemagfx__nemagui__ambiq__logo_2src_2NemaGUI__Builder__project_2Ambiq__smartwatch__390390__Files_eca4706e5956df1e963dbaf0ab150446.html#a08f6715cea45f1f49c66be08df80511e',1,'gitem_type_e:&#160;ng_gitem.h']]]
+];

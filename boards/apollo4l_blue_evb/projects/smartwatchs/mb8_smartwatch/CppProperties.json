@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x64"
+      ],
+      "name": "x64-Debug",
+      "includePath": [
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\utils",
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\third_party",
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\third_party\\FreeRTOSv10.5.1\\Source\\include",
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\third_party\\FreeRTOSv10.5.1\\Source\\portable\\GCC\\ARM_CM4F",
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\devices",
+        "${workspaceRoot}\\..\\..\\..\\bsp",
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\mcu\\apollo4l",
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\mcu\\apollo4l\\hal",
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\mcu\\apollo4l\\regs",
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\mcu\\apollo4l\\hal\\mcu",
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**"
+      ],
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ]
+}

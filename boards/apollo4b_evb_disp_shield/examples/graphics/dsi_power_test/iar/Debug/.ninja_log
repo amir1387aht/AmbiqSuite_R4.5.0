@@ -1,0 +1,13 @@
+# ninja log v5
+1	523	7406077259215380	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/am_devices_dc_dsi_raydium.o	d2b235e7ce04a8bf
+526	693	7406077261015374	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/am_util_stdio.o	e9502c2a3f6ede9
+698	1143	7406077265389083	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/am_resources.o	1d6476bcad1b4f3c
+1145	1718	7406077271142708	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/nema_dc_hal.o	99d237cf2b4590f4
+1721	3213	7406077286084573	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/dsi_power_test.o	2f3335dfdd9095d
+3216	3669	7406077290682871	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/am_util_delay.o	9cb715c7efae5aef
+3672	4185	7406077295796351	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/nema_utils.o	819722f896dbea08
+4188	4246	7406077296496371	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/nema_event.o	207e0d0a56edca7e
+4250	4324	7406077297276346	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/startup_iar.o	8fe2097274af4c2
+4327	4829	7406077302243441	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/nema_hal.o	cca1d5f67bfe3d45
+4832	5046	7406077304326024	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/dsi_power_test.out	928970549ce1ba41
+5051	5071	7406077304876018	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dsi_power_test/iar/bin/dsi_power_test.bin	d70399091e196f82

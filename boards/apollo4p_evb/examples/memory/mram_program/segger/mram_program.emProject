@@ -1,0 +1,70 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="mram_program" target="8" version="2">
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="None" />
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="Level 2"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Level 2 balanced" />
+  <project Name="mram_program">
+    <configuration
+      LIBRARY_IO_TYPE="None"
+      Name="Common"
+      arm_architecture="v7EM"
+      arm_compiler_variant="SEGGER"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_fp_abi="Hard"
+      arm_linker_heap_size="2048"
+      arm_linker_process_stack_size="0"
+      arm_linker_stack_size="2048"
+      arm_linker_variant="SEGGER"
+      arm_target_device_name="AMAP42KK-KBR"
+      arm_target_interface_type="SWD"
+      debug_stack_pointer_start="__stack_end__"
+      debug_target_connection="J-Link"
+      gcc_entry_point="Reset_Handler"
+      link_dedupe_code="Yes"
+      link_linker_script_file="SEGGER_Flash.icf"
+      linker_output_format="hex"
+      linker_section_placements_segments="FLASH1 RX 0x00018000 0x001e8000;RAM1 RWX 0x10000000 0x00060000;"
+      project_directory=""
+      project_type="Executable" />
+    <configuration
+      Name="Debug"
+      arm_assembler_variant="SEGGER"
+      build_output_directory="bin"
+      c_preprocessor_definitions="segger;AM_PART_APOLLO4P;AM_PACKAGE_BGA"
+      c_preprocessor_undefinitions="DEBUG"
+      c_user_include_directories="../../../../../../mcu/apollo4p;../../../../../../CMSIS/ARM/Include;../../../../../..;../../../../../../CMSIS/AmbiqMicro/Include;../../../../../../devices;../src;../../../../bsp;../../../../../../utils"
+      gcc_c_language_standard="c11"
+      linker_additional_options="--undefined-weak-is-zero" 
+      linker_additional_files="../../../../../../mcu/apollo4p/hal/mcu/segger/bin/libam_hal.a;../../../../bsp/segger/bin/libam_bsp.a;"
+      linker_additional_system_libraries=""
+      linker_output_format="bin" />
+    <configuration Name="Release" link_dedupe_code="Yes" />
+	          <folder Name="src">
+            <file file_name="../src/am_resources.c" />
+            <file file_name="../src/mram_program.c" />
+          </folder>
+
+          <folder Name="utils">
+            <file file_name="../../../../../../utils/am_util_delay.c" />
+            <file file_name="../../../../../../utils/am_util_faultisr.c" />
+            <file file_name="../../../../../../utils/am_util_stdio.c" />
+          </folder>
+
+          <folder Name="segger">
+            <file file_name="../segger/startup_segger.s" />
+            <file file_name="../segger/SEGGER_THUMB_Startup.s" />
+          </folder>
+  </project>
+</solution>
+

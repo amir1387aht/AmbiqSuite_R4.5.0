@@ -1,0 +1,9 @@
+# ninja log v5
+0	462	7406066849840878	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/peripherals/hp_mode_192mhz/iar/bin/am_resources.o	ced12c128abef3b2
+465	534	7406066850660877	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/peripherals/hp_mode_192mhz/iar/bin/startup_iar.o	5423c0a37243c234
+539	712	7406066852430919	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/peripherals/hp_mode_192mhz/iar/bin/am_util_stdio.o	7775c19063f69934
+714	1190	7406066857116972	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/peripherals/hp_mode_192mhz/iar/bin/am_util_faultisr.o	8d79e24312dd865f
+1192	1657	7406066861753462	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/peripherals/hp_mode_192mhz/iar/bin/am_util_delay.o	7c6467043d55b08
+1660	2159	7406066866824756	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/peripherals/hp_mode_192mhz/iar/bin/hp_mode_192mhz.o	dbb37e99edb0b1a9
+2163	2273	7406066867984761	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/peripherals/hp_mode_192mhz/iar/bin/hp_mode_192mhz.out	62647267e3d75fc5
+2277	2284	7406066868244781	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/peripherals/hp_mode_192mhz/iar/bin/hp_mode_192mhz.bin	59468e6db1e31a86

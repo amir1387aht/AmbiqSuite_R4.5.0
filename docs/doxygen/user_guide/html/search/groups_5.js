@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['dc_20dsi_20driver_0',['Raydium DC DSI Driver',['../group__dc__dsi.html',1,'']]],
+  ['dc_20xspi_20driver_1',['Raydium DC xSPI Driver',['../group__dc__xspi.html',1,'']]],
+  ['dcu_20debug_20control_20unit_2',['DCU Debug Control Unit',['../group__dcu__4b.html',1,'DCU - Debug Control Unit'],['../group__dcu__4p.html',1,'DCU - Debug Control Unit'],['../group__dcu__4l.html',1,'DCU - Debug Control Unit']]],
+  ['debug_3',['Debug',['../group__debug.html',1,'']]],
+  ['debug_20control_20unit_4',['Debug Control Unit',['../group__dcu__4b.html',1,'DCU - Debug Control Unit'],['../group__dcu__4p.html',1,'DCU - Debug Control Unit'],['../group__dcu__4l.html',1,'DCU - Debug Control Unit']]],
+  ['defines_5',['Display Devices Type Defines',['../group__disp__type.html',1,'']]],
+  ['definitions_6',['Definitions',['../group__system__4b.html',1,'System Wide Definitions'],['../group__system__4p.html',1,'System Wide Definitions'],['../group__system__4l.html',1,'System Wide Definitions']]],
+  ['delay_20functionality_7',['Delay Functionality',['../group__delay.html',1,'']]],
+  ['density_20modulation_8',['Density Modulation',['../group__pdm__4b.html',1,'PDM - Pulse Density Modulation'],['../group__pdm__4p.html',1,'PDM - Pulse Density Modulation'],['../group__pdm__4l.html',1,'PDM - Pulse Density Modulation']]],
+  ['device_20control_20for_20programmable_20leds_9',['SPI Device Control for programmable LEDs.',['../group__LED.html',1,'']]],
+  ['device_20driver_10',['Device Driver',['../group__button.html',1,'Button Device Driver'],['../group__cooper.html',1,'Cooper BLE Device Driver']]],
+  ['devices_11',['devices',['../group__devices.html',1,'']]],
+  ['devices_20generic_20driver_12',['Display Devices Generic Driver',['../group__disp__generic.html',1,'']]],
+  ['devices_20type_20defines_13',['Display Devices Type Defines',['../group__disp__type.html',1,'']]],
+  ['digital_20converter_14',['Digital Converter',['../group__adc4__4b.html',1,'ADC - Analog-to-Digital Converter'],['../group__adc4__4p.html',1,'ADC - Analog-to-Digital Converter'],['../group__adc4__4l.html',1,'ADC - Analog-to-Digital Converter'],['../group__audadc4__4b.html',1,'AUDADC - Audio Analog-to-Digital Converter'],['../group__audadc4__4p.html',1,'AUDADC - Audio Analog-to-Digital Converter']]],
+  ['display_20devices_20generic_20driver_15',['Display Devices Generic Driver',['../group__disp__generic.html',1,'']]],
+  ['display_20devices_20type_20defines_16',['Display Devices Type Defines',['../group__disp__type.html',1,'']]],
+  ['display_20driver_17',['Display Driver',['../group__mspi__rm67162.html',1,'RM67162 MSPI Display Driver'],['../group__mspi__rm69330.html',1,'RM69330 MSPI Display Driver']]],
+  ['display_20serial_20interface_18',['Display Serial Interface',['../group__dsi__4b.html',1,'DSI - Display Serial Interface'],['../group__dsi__4p.html',1,'DSI - Display Serial Interface']]],
+  ['driver_19',['Driver',['../group__mspi__psram__12808l.html',1,'APS12808L MSPI PSRAM Driver'],['../group__mspi__psram__aps25616n.html',1,'APS25616N MSPI PSRAM 1.8V Driver'],['../group__mspi__psram__aps6404l.html',1,'APS6404L MSPI PSRAM Driver'],['../group__atxp032.html',1,'ATXP032 MSPI Driver'],['../group__button.html',1,'Button Device Driver'],['../group__cooper.html',1,'Cooper BLE Device Driver'],['../group__disp__generic.html',1,'Display Devices Generic Driver'],['../group__mspi__ds35x1ga.html',1,'DX35X1GA MSPI Driver'],['../group__mspi__serial__flash.html',1,'IS25WX064 MSPI FLASH Driver'],['../group__dc__dsi.html',1,'Raydium DC DSI Driver'],['../group__dc__xspi.html',1,'Raydium DC xSPI Driver'],['../group__mspi__rm67162.html',1,'RM67162 MSPI Display Driver'],['../group__mspi__rm69330.html',1,'RM69330 MSPI Display Driver'],['../group__RS9116.html',1,'SDIO Wi-Fi Driver'],['../group__spiflash.html',1,'SPI FLASH Driver'],['../group__spipsram.html',1,'SPI PSRAM Driver'],['../group__tma525.html',1,'TMA525 - I2C Touch Driver'],['../group__mspi__psram__w958d6nw.html',1,'W958D6NW MSPI PSRAM Driver']]],
+  ['driver_20',['driver',['../group__emmc__rpmb.html',1,'eMMC RPMB driver'],['../group__mb85rc256v.html',1,'MB85RC256V I2C FRAM driver']]],
+  ['dsi_20display_20serial_20interface_21',['DSI Display Serial Interface',['../group__dsi__4b.html',1,'DSI - Display Serial Interface'],['../group__dsi__4p.html',1,'DSI - Display Serial Interface']]],
+  ['dsi_20driver_22',['Raydium DC DSI Driver',['../group__dc__dsi.html',1,'']]],
+  ['dsp_20nvic_20support_20functions_23',['DSP NVIC support functions',['../group__dsp__interrupt__4b.html',1,'Interrupt (DSP NVIC support functions)'],['../group__dsp__interrupt.html',1,'Interrupt (DSP NVIC support functions)']]],
+  ['dx35x1ga_20mspi_20driver_24',['DX35X1GA MSPI Driver',['../group__mspi__ds35x1ga.html',1,'']]]
+];

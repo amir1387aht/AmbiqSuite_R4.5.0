@@ -1,0 +1,9 @@
+# ninja log v5
+1	465	7406191330698630	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/tempco/iar/bin/am_resources.o	2a92253a680492
+468	633	7406191332458624	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/tempco/iar/bin/am_util_stdio.o	d9e13d774e0e5673
+638	1086	7406191336922605	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/tempco/iar/bin/am_util_delay.o	188d59961eb446df
+1088	1573	7406191341780507	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/tempco/iar/bin/tempco.o	113f7553699e5988
+1577	1646	7406191342570509	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/tempco/iar/bin/startup_iar.o	11ce84807ceea76e
+1649	2106	7406191347107320	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/tempco/iar/bin/am_util_id.o	3585e9854ec7f4a2
+2107	2230	7406191348337294	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/tempco/iar/bin/tempco.out	32848bcf1f87ed7e
+2233	2246	7406191348687310	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/power/tempco/iar/bin/tempco.bin	fbc52e1bc3e1b7a

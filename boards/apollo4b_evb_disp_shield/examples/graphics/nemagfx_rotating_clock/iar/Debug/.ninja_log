@@ -1,0 +1,13 @@
+# ninja log v5
+1	607	7406088594680639	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/am_devices_display_generic.o	86aed9fff6798300
+610	660	7406088595297496	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/nema_event.o	3999865f955aabe8
+665	828	7406088596977485	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/am_util_stdio.o	cffcf808ebb2dbdf
+830	1392	7406088602517495	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/nema_dc_hal.o	43d01aa9b49597f9
+1394	1831	7406088606932510	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/am_resources.o	91499faeed9557da
+1835	2275	7406088611362527	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/am_util_delay.o	219cb12cca9c8ff6
+2277	4314	7406088631654277	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/nemagfx_rotating_clock.o	8424963b3674c71f
+4317	4804	7406088636652066	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/nema_utils.o	e0715417f0dc5c39
+4807	4873	7406088637432074	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/startup_iar.o	233ad96475d512f3
+4877	5366	7406088642272066	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/nema_hal.o	af0bec5ea61569be
+5368	5593	7406088644498784	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/nemagfx_rotating_clock.out	e906a37c0392d80e
+5597	5619	7406088644978793	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/nemagfx_rotating_clock/iar/bin/nemagfx_rotating_clock.bin	2e25b33f39847f3f

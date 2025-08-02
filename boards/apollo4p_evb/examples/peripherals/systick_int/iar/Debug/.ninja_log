@@ -1,0 +1,8 @@
+# ninja log v5
+0	494	7406196406410731	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/systick_int/iar/bin/am_devices_led.o	d0917dd6aed80935
+496	656	7406196408136345	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/systick_int/iar/bin/am_util_stdio.o	95720d19edabccef
+661	1097	7406196412456348	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/systick_int/iar/bin/am_resources.o	6de0fdce666eeb03
+1100	1163	7406196413216356	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/systick_int/iar/bin/startup_iar.o	7238bc450567bffe
+1166	1644	7406196417911198	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/systick_int/iar/bin/systick_int.o	2e96a6273bbacada
+1647	1768	7406196419183168	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/systick_int/iar/bin/systick_int.out	481d01d725b087c1
+1771	1783	7406196419473184	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/systick_int/iar/bin/systick_int.bin	f6555ea4851c824d

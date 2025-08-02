@@ -1,0 +1,24 @@
+Name:
+=====
+ nemagfx_watchface
+
+
+Description:
+============
+ NemaGFX Watchface Example.
+
+
+
+
+Purpose:
+========
+This example uses one or two frame buffer demonstrate a digital Quartz clock, with
+ Nema GPU support, the shader effect continue shows while timer passing, the
+ function needs a timer to get the accurate time past.
+ AM_DEBUG_PRINTF
+ If enabled, debug messages will be sent over ITM.
+
+
+******************************************************************************
+
+

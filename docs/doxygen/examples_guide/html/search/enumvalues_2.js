@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['casual_0',['CASUAL',['../loops_8h.html#a6084942aca4fe92fdcd6c050b78a674eaf6ea18789b41d7993a261751d44a7f1f',1,'loops.h']]],
+  ['casual_5fidx_1',['CASUAL_IDX',['../loops_8h.html#a075192c9e79e79aafb7623a21960d73ba041109d3cea79ec56fc586d4a5c34443',1,'loops.h']]],
+  ['check_2',['CHECK',['../inflate_8h.html#a164ea0159d5f0b5f12a646f25f99eceaaed65b7dfe470f4e500b15f7074bb7fa2',1,'inflate.h']]],
+  ['cholesky_3',['CHOLESKY',['../loops_8h.html#a6084942aca4fe92fdcd6c050b78a674ea48f227c1b9b03071b74b66694f0ef016',1,'loops.h']]],
+  ['cholesky_5fidx_4',['CHOLESKY_IDX',['../loops_8h.html#a075192c9e79e79aafb7623a21960d73baa74cc28fce4f50eca2de3c4ab58a8d3f',1,'loops.h']]],
+  ['codelens_5',['CODELENS',['../inflate_8h.html#a164ea0159d5f0b5f12a646f25f99eceaa77b9f2ec0ee4bb6570ef4f42d8f2a492',1,'inflate.h']]],
+  ['codes_6',['CODES',['../inftrees_8h.html#a0f33f5acf9079ff1f054fa235df2443ba4f2ec4135d8cf82c6c35780e470cac28',1,'inftrees.h']]],
+  ['comment_7',['COMMENT',['../inflate_8h.html#a164ea0159d5f0b5f12a646f25f99eceaaae696377c19e507b64e16be78ce3bbdb',1,'inflate.h']]],
+  ['continue_8',['CONTINUE',['../mith__sync_8h.html#a0d0e0d396d29adfbd93caff56ba7708ea49959dd441dcda75d6898cf2c68fb374',1,'mith_sync.h']]],
+  ['control_9',['CONTROL',['../mith__sync_8h.html#ae666cfbe4df9a34ac1eb4fe0c89be7dbaf722a5faa36087c914da53ebe4711f08',1,'mith_sync.h']]],
+  ['copy_10',['COPY',['../inflate_8h.html#a164ea0159d5f0b5f12a646f25f99eceaaba6788019f0f871f0aefcd5644635785',1,'inflate.h']]],
+  ['copy_5f_11',['COPY_',['../inflate_8h.html#a164ea0159d5f0b5f12a646f25f99eceaabf17f496021fb9357faed8247beb3926',1,'inflate.h']]],
+  ['core_5fexponent_12',['CORE_EXPONENT',['../src_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a52ef67898241d9ad30b6de730c373780',1,'CORE_EXPONENT:&#160;coremark.h'],['../pro_2src_2benchmarks_2core_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a52ef67898241d9ad30b6de730c373780',1,'CORE_EXPONENT:&#160;coremark.h']]],
+  ['core_5ffloat_13',['CORE_FLOAT',['../src_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a09b2c15bbe63f30cdcbd6466d62be85b',1,'CORE_FLOAT:&#160;coremark.h'],['../pro_2src_2benchmarks_2core_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a09b2c15bbe63f30cdcbd6466d62be85b',1,'CORE_FLOAT:&#160;coremark.h']]],
+  ['core_5fint_14',['CORE_INT',['../src_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398aff0687dabd01aca4c155ee04fc804f8f',1,'CORE_INT:&#160;coremark.h'],['../pro_2src_2benchmarks_2core_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398aff0687dabd01aca4c155ee04fc804f8f',1,'CORE_INT:&#160;coremark.h']]],
+  ['core_5finvalid_15',['CORE_INVALID',['../src_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a903f9b7a1f82e8954961eafddfbbfe31',1,'CORE_INVALID:&#160;coremark.h'],['../pro_2src_2benchmarks_2core_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a903f9b7a1f82e8954961eafddfbbfe31',1,'CORE_INVALID:&#160;coremark.h']]],
+  ['core_5fs1_16',['CORE_S1',['../src_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a55423d27e20331d87e093413013ac081',1,'CORE_S1:&#160;coremark.h'],['../pro_2src_2benchmarks_2core_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a55423d27e20331d87e093413013ac081',1,'CORE_S1:&#160;coremark.h']]],
+  ['core_5fs2_17',['CORE_S2',['../src_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a7908389aa53f3a282f8c4d9f48f3f049',1,'CORE_S2:&#160;coremark.h'],['../pro_2src_2benchmarks_2core_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a7908389aa53f3a282f8c4d9f48f3f049',1,'CORE_S2:&#160;coremark.h']]],
+  ['core_5fscientific_18',['CORE_SCIENTIFIC',['../src_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a97f176cbc24896b5b3c204cd448dcaa5',1,'CORE_SCIENTIFIC:&#160;coremark.h'],['../pro_2src_2benchmarks_2core_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a97f176cbc24896b5b3c204cd448dcaa5',1,'CORE_SCIENTIFIC:&#160;coremark.h']]],
+  ['core_5fstart_19',['CORE_START',['../src_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a0f7ac4374e33344c67210a6004bddfb0',1,'CORE_START:&#160;coremark.h'],['../pro_2src_2benchmarks_2core_2coremark_8h.html#ae0dfae7f43f6cf57ac713858f4e76398a0f7ac4374e33344c67210a6004bddfb0',1,'CORE_START:&#160;coremark.h']]],
+  ['cpu_5fbound_20',['CPU_BOUND',['../graphics_2nemagfx__benchmarks_2src_2utils_8h.html#a6ab0486c1aeeb18cd00e84d2d787bc27a0b5668c421b4e7d72be6bf2d71ae4ec6',1,'utils.h']]],
+  ['cpu_5fgpu_21',['CPU_GPU',['../graphics_2nemagfx__benchmarks_2src_2utils_8h.html#a6ab0486c1aeeb18cd00e84d2d787bc27ad8b64e5c7c00a10e790bf3f29bf6bb14',1,'utils.h']]]
+];

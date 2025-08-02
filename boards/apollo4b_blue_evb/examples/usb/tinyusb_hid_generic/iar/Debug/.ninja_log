@@ -1,0 +1,17 @@
+# ninja log v5
+0	445	7406071062214024	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/am_resources.o	5c3ab535e4fe8116
+448	910	7406071066816900	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/am_util_delay.o	bff877dc9e98c481
+915	2201	7406071079792454	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/am_util_stdio.o	cc63297360552f83
+2203	2919	7406071086891525	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/dcd_apollo4.o	28395777e72485a1
+2922	3402	7406071091737050	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/apollo4_board.o	9021d84a067153c
+3405	3891	7406071096629656	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/am_util_id.o	a559fed4ea7dae62
+3894	4423	7406071101915253	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/tinyusb_hid_generic.o	cc08d765aea941c
+4425	5088	7406071108586143	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/tusb.o	ef0be07c061ce315
+5091	6371	7406071121422999	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/tusb_fifo.o	1cf2e09a442a1aec
+6374	6456	7406071122358668	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/startup_iar.o	387fd62397e8a094
+6459	7171	7406071129425727	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/hid_device.o	dbbcfacbca0b2b4c
+7173	8496	7406071142660692	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/usbd.o	a912575bf60f4628
+8499	9047	7406071148173380	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/usb_descriptors.o	ca00930946f47f0e
+9050	9635	7406071154016318	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/usbd_control.o	b0fb0df7dac3eb21
+9638	9802	7406071155703342	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/tinyusb_hid_generic.out	a33566389fe935e2
+9806	9814	7406071156063349	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/usb/tinyusb_hid_generic/iar/bin/tinyusb_hid_generic.bin	120ad4aeaaa7a3ab

@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['callback_5ff_0',['callback_f',['../nemagfx__gauge_2src_2generated_2NemaGUI_2include_2ng__typedefs_8h.html#a062d85f18e9ff38bf1ca962ed0e4aaba',1,'callback_f:&#160;ng_typedefs.h'],['../nemagfx__gauge_2src_2NemaGUI__Builder__project_2generated_2NemaGUI_2include_2ng__typedefs_8h.html#a062d85f18e9ff38bf1ca962ed0e4aaba',1,'callback_f:&#160;ng_typedefs.h'],['../nemagfx__nemagui__ambiq__logo_2src_2generated_2NemaGUI_2include_2ng__typedefs_8h.html#a062d85f18e9ff38bf1ca962ed0e4aaba',1,'callback_f:&#160;ng_typedefs.h'],['../nemagfx__nemagui__ambiq__logo_2src_2NemaGUI__Builder__project_2Ambiq_01Smartwatch__Files_2genera39cdd0f21b56023620572334d8285759.html#a062d85f18e9ff38bf1ca962ed0e4aaba',1,'callback_f:&#160;ng_typedefs.h'],['../nemagfx__nemagui__ambiq__logo_2src_2NemaGUI__Builder__project_2Ambiq__smartwatch__390390__Files_0bef6b01e5e0675704d96a39f50ec0fc.html#a062d85f18e9ff38bf1ca962ed0e4aaba',1,'callback_f:&#160;ng_typedefs.h']]],
+  ['cd_5fprogress_5fptr_1',['cd_progress_ptr',['../cdjpeg_8h.html#a03172dfefe6c3fa964405a500f0132a4',1,'cdjpeg.h']]],
+  ['cell_5ft_2',['cell_t',['../psram__malloc_8h.html#afa86c724f4ea8cd7d00215c5fb259175',1,'psram_malloc.h']]],
+  ['chain_5finfo_5ft_3',['chain_info_t',['../mith__workload_8h.html#a16e446fbf02cfd33e4a4b1e94a6d92a1',1,'mith_workload.h']]],
+  ['char_4',['Char',['../th__types_8h.html#a11dd7716751d68fd0ed90f4d7b7408a7',1,'th_types.h']]],
+  ['charf_5',['charf',['../zconf_8h.html#a0f3f92a9c02f6f688bf081aabf230212',1,'zconf.h']]],
+  ['circular_5ft_6',['circular_t',['../nemagfx__vg__circular__bar_2src_2render__task_8c.html#a3df553858b84c78cde55641e2e0fb650',1,'render_task.c']]],
+  ['cjpeg_5fsource_5fptr_7',['cjpeg_source_ptr',['../cdjpeg_8h.html#ae615c12420b980baea9b2f93fabd0978',1,'cdjpeg.h']]],
+  ['clock_5ft_8',['clock_t',['../types_8h.html#a610f1e1fc118483c18490db0985ebd14',1,'types.h']]],
+  ['clockid_5ft_9',['clockid_t',['../types_8h.html#a6dcac6a5cea7d9c842145e1444d91e22',1,'types.h']]],
+  ['code_5ft_10',['code_t',['../enough_8c.html#a57f45b35745f4862e6c3cc4f8dfdf770',1,'enough.c']]],
+  ['config_11',['config',['../deflate_8c.html#a2e56afa64412e0b968cb288a6d1278ba',1,'deflate.c']]],
+  ['core_5fparams_12',['core_params',['../core__mith_8h.html#a8081045e9fb48598034ed3bc8190f056',1,'core_mith.h']]],
+  ['core_5fportable_13',['core_portable',['../src_2core__portme_8h.html#a879d32c4fafc1cbaf6b062c0f69927ef',1,'core_portable:&#160;core_portme.h'],['../pro_2src_2benchmarks_2core_2core__portme_8h.html#a879d32c4fafc1cbaf6b062c0f69927ef',1,'core_portable:&#160;core_portme.h']]],
+  ['core_5fresults_14',['core_results',['../src_2coremark_8h.html#add24c3017ccd7ca55e8a2a077c300928',1,'core_results:&#160;coremark.h'],['../pro_2src_2benchmarks_2core_2coremark_8h.html#add24c3017ccd7ca55e8a2a077c300928',1,'core_results:&#160;coremark.h']]],
+  ['core_5fstate_5fe_15',['core_state_e',['../src_2coremark_8h.html#afc0d399aad7e2633ec6f0eee8659a665',1,'core_state_e:&#160;coremark.h'],['../pro_2src_2benchmarks_2core_2coremark_8h.html#afc0d399aad7e2633ec6f0eee8659a665',1,'core_state_e:&#160;coremark.h']]],
+  ['core_5fticks_16',['CORE_TICKS',['../src_2core__portme_8h.html#a7f51eff92b99de3570a1d6a7486b9b6e',1,'CORE_TICKS:&#160;core_portme.h'],['../pro_2src_2benchmarks_2core_2core__portme_8h.html#a89f5dacc7bf8af8d557c316ef5e21686',1,'CORE_TICKS:&#160;core_portme.h']]],
+  ['ct_5fdata_17',['ct_data',['../deflate_8h.html#a0a4b5df3b2254c627b8a59e038963118',1,'deflate.h']]]
+];

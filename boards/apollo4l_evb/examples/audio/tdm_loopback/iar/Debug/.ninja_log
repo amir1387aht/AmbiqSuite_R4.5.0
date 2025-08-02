@@ -1,0 +1,10 @@
+# ninja log v5
+1	440	7406128179247070	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/tdm_loopback/iar/bin/am_resources.o	71736d33d3195b8a
+442	950	7406128184423041	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/tdm_loopback/iar/bin/am_util_faultisr.o	60f189658a0c895a
+955	1006	7406128185073031	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/tdm_loopback/iar/bin/am_util_syscalls.o	1b16c91cf38a47f
+1008	1076	7406128185788722	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/tdm_loopback/iar/bin/startup_iar.o	9528cf438b3bbfc6
+1078	1490	7406128189838717	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/tdm_loopback/iar/bin/am_util_delay.o	21da1c75187262b3
+1492	2748	7406128202473378	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/tdm_loopback/iar/bin/am_util_stdio.o	f4d0b62377e427b4
+2751	3711	7406128212033349	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/tdm_loopback/iar/bin/tdm_loopback.o	b1c063c5d44938e5
+3713	3853	7406128213473359	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/tdm_loopback/iar/bin/tdm_loopback.out	fb200f1b93783a61
+3857	3869	7406128213793352	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/audio/tdm_loopback/iar/bin/tdm_loopback.bin	ff1ea123d34f68b1

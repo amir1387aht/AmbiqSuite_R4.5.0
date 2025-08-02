@@ -1,0 +1,13 @@
+# ninja log v5
+0	497	7406068966964009	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/am_util_delay.o	ccf5a15315b33d67
+499	973	7406068971754048	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/pwr_control_utils.o	49915c4f199434bf
+978	1439	7406068976402970	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/pwr_gpio_utils.o	7d8a2b444960a5f1
+1443	1900	7406068981029885	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/am_util_faultisr.o	bea7d5ebe3e7818d
+1903	2071	7406068982809885	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/am_util_stdio.o	4f9d3b2a55ec3ad1
+2074	2534	7406068987327090	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/am_resources.o	8ac415afaa859d7d
+2536	3018	7406068992207099	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/pwr_timer_utils.o	d049b6b45ea41339
+3021	3535	7406068997330307	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.o	369def990a34b128
+3539	3607	7406068998170296	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/startup_iar.o	5dae640531299020
+3611	4104	7406069003070311	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_utils.o	cc838c8945d07d04
+4105	4240	7406069004398413	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.out	8797cdf64978f178
+4243	4251	7406069004708434	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_blue_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.bin	3f3fe30303494e7

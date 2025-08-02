@@ -1,0 +1,12 @@
+# ninja log v5
+1	479	7406131099513088	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/am_devices_led.o	89bfbba24b06dd8d
+481	641	7406131101211270	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_stdio.o	c4a54117e361841e
+646	1148	7406131106170960	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.o	cc0f6f49e95f3f2b
+1150	1613	7406131110832162	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_faultisr.o	aa7ccf3410d97bcb
+1616	2055	7406131115260895	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/am_resources.o	837b13bd296148ba
+2058	2498	7406131119689255	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_delay.o	6814aa89c1502f09
+2501	2561	7406131120429257	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/startup_iar.o	1d7c7e729288b1dd
+2565	2674	7406131121549259	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/SEGGER_RTT_printf.o	c0104d40d63ca74b
+2676	2894	7406131123719257	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/SEGGER_RTT.o	137e822072544430
+2895	3018	7406131124901824	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.out	6faccd54005911f9
+3020	3032	7406131125201826	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kbr_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.bin	3fa01483eafc0b97

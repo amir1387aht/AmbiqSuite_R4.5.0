@@ -1,0 +1,11 @@
+{
+    "cmake.configureOnOpen": true,
+    "cortex-debug.variableUseNaturalFormat": false,
+    "cortex-debug.registerUseNaturalFormat": false,
+    "files.associations": {
+        "__locale": "cpp",
+        "__string": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
+    }
+}

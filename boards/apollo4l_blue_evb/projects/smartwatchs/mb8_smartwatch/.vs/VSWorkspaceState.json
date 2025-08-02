@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\helpers",
+    "\\src\\helpers\\display",
+    "\\src\\screens\\menu",
+    "\\src\\sensors",
+    "\\src\\sensors\\accl",
+    "\\src\\sensors\\accl\\fsm",
+    "\\src\\sensors\\light"
+  ],
+  "SelectedNode": "\\src\\helpers\\display\\display.c",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,13 @@
+# ninja log v5
+1	614	7406211774038361	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/am_devices_display_generic.o	3c0f5b47e0aea2
+616	1182	7406211779732608	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/nema_dc_hal.o	ed776476af4a102
+1187	1630	7406211784225102	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/am_util_delay.o	98637bee720fe4b
+1633	1796	7406211785940672	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/am_util_stdio.o	7b3c36853c08a94c
+1799	2238	7406211790291809	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/am_resources.o	1d5cb9899319fef3
+2240	2289	7406211790881808	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/nema_event.o	15cb07116eab2961
+2292	2785	7406211795729760	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/nema_utils.o	a1ffd0f094278ced
+2787	3361	7406211800905538	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/nemagfx_grad.o	5bd08a2b1af9a4d7
+3364	3855	7406211806453895	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/nema_hal.o	bcf0de0967972871
+3858	3922	7406211807225257	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/startup_iar.o	faaab599c803cf19
+3925	4149	7406211809375242	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/nemagfx_grad.out	30b3db23f9be34ee
+4152	4165	7406211809745247	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb_disp_shield_rev2/examples/graphics/nemagfx_grad/iar/bin/nemagfx_grad.bin	29414803d6540149

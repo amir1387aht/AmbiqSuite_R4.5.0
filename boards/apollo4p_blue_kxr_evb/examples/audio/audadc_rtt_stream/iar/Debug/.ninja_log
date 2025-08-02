@@ -1,0 +1,12 @@
+# ninja log v5
+0	493	7406162553596614	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/am_devices_led.o	ba75c323021527aa
+495	963	7406162558307880	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_faultisr.o	9c555c7b449d9cfa
+968	1132	7406162560067901	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_stdio.o	74ebf429394c15de
+1134	1571	7406162564375949	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/am_resources.o	2f563dadb500aff0
+1574	2086	7406162569517010	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.o	e6b7759f12215f19
+2089	2532	7406162573983696	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/am_util_delay.o	cc9101b454101c97
+2534	2599	7406162574733718	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/startup_iar.o	8b4c99af660e7d7f
+2602	2718	7406162575929245	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/SEGGER_RTT_printf.o	eea3967d638c7fad
+2720	2940	7406162578149207	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/SEGGER_RTT.o	fa198351366c8626
+2942	3075	7406162579419213	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.out	d8dd4b5c01e42f0a
+3077	3089	7406162579729217	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_blue_kxr_evb/examples/audio/audadc_rtt_stream/iar/bin/audadc_rtt_stream.bin	878f9677d93abff5

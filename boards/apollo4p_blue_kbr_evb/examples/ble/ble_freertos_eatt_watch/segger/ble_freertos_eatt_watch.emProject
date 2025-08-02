@@ -1,0 +1,350 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="ble_freertos_eatt_watch" target="8" version="2">
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="None" />
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="Level 2"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Level 2 balanced" />
+  <project Name="ble_freertos_eatt_watch">
+    <configuration
+      LIBRARY_IO_TYPE="None"
+      Name="Common"
+      arm_architecture="v7EM"
+      arm_compiler_variant="SEGGER"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_fp_abi="Hard"
+      arm_linker_heap_size="2048"
+      arm_linker_process_stack_size="0"
+      arm_linker_stack_size="2048"
+      arm_linker_variant="SEGGER"
+      arm_target_device_name="AMAP42KK-KBR"
+      arm_target_interface_type="SWD"
+      debug_stack_pointer_start="__stack_end__"
+      debug_target_connection="J-Link"
+      gcc_entry_point="Reset_Handler"
+      link_dedupe_code="Yes"
+      link_linker_script_file="SEGGER_Flash.icf"
+      linker_output_format="hex"
+      linker_section_placements_segments="FLASH1 RX 0x00018000 0x001e8000;RAM1 RWX 0x10000000 0x00060000;"
+      project_directory=""
+      project_type="Executable" />
+    <configuration
+      Name="Debug"
+      arm_assembler_variant="SEGGER"
+      build_output_directory="bin"
+      c_preprocessor_definitions="segger;AM_DEBUG_PRINTF;SEC_ECC_CFG=SEC_ECC_CFG_HCI;WSF_TRACE_ENABLED;AM_FREERTOS;AM_PACKAGE_BGA;AM_BLE_EATT;AM_PART_APOLLO4P"
+      c_preprocessor_undefinitions="DEBUG"
+      c_user_include_directories="../../../../../../third_party/cordio/ble-host/include;../../../../../../mcu/apollo4p/hal/mcu;../../../../../../third_party/cordio/ble-host/sources/stack/dm;../../../../../../third_party/cordio/ble-profiles/sources/profiles/wdxs;../../../../bsp;../../../../../../third_party/cordio/ble-host/sources/stack/hci;../../../../../../third_party/cordio/ble-host/sources/stack/att;../../../../../../third_party/FreeRTOSv10.5.1/Source/portable/SEGGER/AMapollo4;../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/cooper;../../../../../../third_party/cordio/ble-profiles/sources/apps/watch;../../../../../../third_party/cordio/ble-profiles/sources/profiles/bas;../../../../../../third_party/cordio/ble-profiles/sources/services;../../../../../../third_party/cordio/ble-profiles/sources/profiles/paspc;../../../../../../third_party/cordio/ble-host/sources/stack/smp;../../../../../../third_party/cordio/ble-profiles/sources/profiles/tipc;../../../../../../third_party/cordio/ble-profiles/sources/profiles/gatt;../../../../../../third_party/uecc;../../../../../../third_party/cordio/ble-host/sources/stack/cfg;../../../../../../CMSIS/ARM/Include;../../../../../../third_party/cordio/ble-profiles/sources/profiles/hrpc;../../../../../../third_party/cordio/ble-profiles/sources/profiles/dis;../../../../../../third_party/cordio/wsf/sources/port/freertos;../../../../../../third_party/cordio/ble-profiles/sources/profiles/hid;../../../../../../third_party/cordio/ble-profiles/sources/profiles/uribeacon;../../../../../../utils;../src;../../../../../../third_party/cordio/wsf/sources;../../../../../../third_party/cordio/wsf/include;../../../../../../third_party/FreeRTOSv10.5.1/Source/include;../../../../../../third_party/cordio/ble-profiles/sources/apps/app;../../../../../../CMSIS/AmbiqMicro/Include;../../../../../../third_party/cordio/wsf/sources/util;../../../../../../third_party/cordio/ble-profiles/sources/profiles/anpc;../../../../../../mcu/apollo4p;../../../../../../third_party/cordio/ble-profiles/include/app;../../../../../../third_party/cordio/ble-profiles/sources/profiles/include;../../../../../../third_party/cordio/ble-profiles/sources/profiles/gap;../../../../../..;../../../../../../third_party/cordio/ble-host/sources/hci/ambiq;../../../../../../third_party/cordio/ble-host/sources/sec/common;../../../../../../third_party/cordio/ble-profiles/sources/profiles;../../../../../../third_party/cordio/ble-host/sources/stack/l2c;../../../../../../third_party/cordio/ble-profiles/sources/apps;../../../../../../devices"
+      gcc_c_language_standard="c11"
+      linker_additional_options="--undefined-weak-is-zero" 
+      linker_additional_files="../../../../bsp/segger/bin/libam_bsp.a;../../../../../../mcu/apollo4p/hal/mcu/segger/bin/libam_hal.a;"
+      linker_additional_system_libraries=""
+      linker_output_format="bin" />
+    <configuration Name="Release" link_dedupe_code="Yes" />
+	          <folder Name="cordio_hid">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/profiles/hid/hid_main.c" />
+          </folder>
+
+          <folder Name="cordio_fmpl">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/profiles/fmpl/fmpl_main.c" />
+          </folder>
+
+          <folder Name="src">
+            <file file_name="../src/am_resources.c" />
+            <file file_name="../src/ble_freertos_eatt_watch.c" />
+            <file file_name="../src/radio_task.c" />
+            <file file_name="../src/rtos.c" />
+          </folder>
+
+          <folder Name="cordio_dm">
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_adv.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_adv_ae.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_adv_leg.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_bis_master.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_bis_slave.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_cis.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_cis_master.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_cis_slave.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_cis_sm.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_conn.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_conn_cte.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_conn_master.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_conn_master_ae.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_conn_master_leg.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_conn_slave.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_conn_slave_ae.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_conn_slave_leg.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_conn_sm.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_dev.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_dev_priv.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_iso.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_main.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_past.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_phy.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_priv.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_scan.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_scan_ae.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_scan_leg.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_sec.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_sec_lesc.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_sec_master.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_sec_slave.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/dm/dm_sync_ae.c" />
+          </folder>
+
+          <folder Name="cordio_uecc">
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/sec/uecc/sec_ecc.c" />
+          </folder>
+
+          <folder Name="cordio_l2c">
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/l2c/l2c_coc.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/l2c/l2c_main.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/l2c/l2c_master.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/l2c/l2c_slave.c" />
+          </folder>
+
+          <folder Name="cordio_hci">
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/hci/hci_main.c" />
+          </folder>
+
+          <folder Name="cordio_att">
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/attc_disc.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/attc_eatt.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/attc_main.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/attc_proc.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/attc_read.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/attc_sign.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/attc_write.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/atts_ccc.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/atts_csf.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/atts_dyn.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/atts_eatt.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/atts_ind.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/atts_main.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/atts_proc.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/atts_read.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/atts_sign.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/atts_write.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/att_eatt.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/att_main.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/att/att_uuid.c" />
+          </folder>
+
+          <folder Name="FreeRTOSv10.5.1_AMapollo4">
+            <file file_name="../../../../../../third_party/FreeRTOSv10.5.1/Source/portable/SEGGER/AMapollo4/port.c" />
+          </folder>
+
+          <folder Name="cordio_cooper">
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/cooper/hci_dbg_trc.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/cooper/hci_drv_cooper.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/cooper/hci_vs_cooper.c" />
+          </folder>
+
+          <folder Name="cordio_util">
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/util/bda.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/util/bstream.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/util/calc128.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/util/crc32.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/util/print.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/util/terminal.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/util/wstr.c" />
+          </folder>
+
+          <folder Name="cordio_common">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/common/app_db.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/common/app_hw.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/common/app_ui.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/common/ui_console.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/common/ui_lcd.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/common/ui_main.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/common/ui_platform.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/common/ui_timer.c" />
+          </folder>
+
+          <folder Name="cordio_anpc">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/profiles/anpc/anpc_main.c" />
+          </folder>
+
+          <folder Name="cordio_watch">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/watch/watch_main.c" />
+          </folder>
+
+          <folder Name="cordio_bas">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/profiles/bas/bas_main.c" />
+          </folder>
+
+          <folder Name="cordio_paspc">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/profiles/paspc/paspc_main.c" />
+          </folder>
+
+          <folder Name="cordio_gap">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/profiles/gap/gap_main.c" />
+          </folder>
+
+          <folder Name="cordio_ambiq">
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_cmd.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_cmd_ae.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_cmd_bis.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_cmd_cis.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_cmd_cte.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_cmd_iso.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_cmd_past.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_cmd_phy.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_core.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_core_ps.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_evt.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_tr.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/hci/ambiq/hci_vs_ae.c" />
+          </folder>
+
+          <folder Name="cordio_common">
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/sec/common/sec_aes.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/sec/common/sec_aes_rev.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/sec/common/sec_ccm_hci.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/sec/common/sec_cmac_hci.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/sec/common/sec_ecc_debug.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/sec/common/sec_ecc_hci.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/sec/common/sec_main.c" />
+          </folder>
+
+          <folder Name="cordio_gatt">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/profiles/gatt/gatt_main.c" />
+          </folder>
+
+          <folder Name="cordio_tipc">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/profiles/tipc/tipc_main.c" />
+          </folder>
+
+          <folder Name="cordio_smp">
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smpi_act.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smpi_sc_act.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smpi_sc_sm.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smpi_sm.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smpr_act.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smpr_sc_act.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smpr_sc_sm.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smpr_sm.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smp_act.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smp_db.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smp_main.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smp_non.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smp_sc_act.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/smp/smp_sc_main.c" />
+          </folder>
+
+          <folder Name="uecc_uecc">
+            <file file_name="../../../../../../third_party/uecc/uECC.c" />
+            <file file_name="../../../../../../third_party/uecc/uECC_ll.c" />
+          </folder>
+
+          <folder Name="cordio_freertos">
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/port/freertos/wsf_assert.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/port/freertos/wsf_buf.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/port/freertos/wsf_efs.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/port/freertos/wsf_math.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/port/freertos/wsf_msg.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/port/freertos/wsf_os.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/port/freertos/wsf_queue.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/port/freertos/wsf_timer.c" />
+            <file file_name="../../../../../../third_party/cordio/wsf/sources/port/freertos/wsf_trace.c" />
+          </folder>
+
+          <folder Name="cordio_cfg">
+            <file file_name="../../../../../../third_party/cordio/ble-host/sources/stack/cfg/cfg_stack.c" />
+          </folder>
+
+          <folder Name="cordio_hrpc">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/profiles/hrpc/hrpc_main.c" />
+          </folder>
+
+          <folder Name="cordio_dis">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/profiles/dis/dis_main.c" />
+          </folder>
+
+          <folder Name="cordio_hidapp">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/hidapp/hidapp_main.c" />
+          </folder>
+
+          <folder Name="cordio_services">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_alert.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_batt.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_bps.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_core.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_cps.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_cscs.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_cte.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_dis.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_gls.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_gyro.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_hid.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_hrs.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_hts.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_ipss.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_plxs.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_px.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_rscs.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_scpss.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_temp.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_time.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_uricfg.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_wdxs.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_wp.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/services/svc_wss.c" />
+          </folder>
+
+          <folder Name="utils">
+            <file file_name="../../../../../../utils/am_util_ble_cooper.c" />
+            <file file_name="../../../../../../utils/am_util_debug.c" />
+            <file file_name="../../../../../../utils/am_util_delay.c" />
+            <file file_name="../../../../../../utils/am_util_faultisr.c" />
+            <file file_name="../../../../../../utils/am_util_id.c" />
+            <file file_name="../../../../../../utils/am_util_stdio.c" />
+          </folder>
+
+          <folder Name="FreeRTOSv10.5.1_MemMang">
+            <file file_name="../../../../../../third_party/FreeRTOSv10.5.1/Source/portable/MemMang/heap_4.c" />
+          </folder>
+
+          <folder Name="FreeRTOSv10.5.1_Source">
+            <file file_name="../../../../../../third_party/FreeRTOSv10.5.1/Source/event_groups.c" />
+            <file file_name="../../../../../../third_party/FreeRTOSv10.5.1/Source/list.c" />
+            <file file_name="../../../../../../third_party/FreeRTOSv10.5.1/Source/queue.c" />
+            <file file_name="../../../../../../third_party/FreeRTOSv10.5.1/Source/tasks.c" />
+            <file file_name="../../../../../../third_party/FreeRTOSv10.5.1/Source/timers.c" />
+          </folder>
+
+          <folder Name="cordio_app">
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/app_disc.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/app_main.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/app_master.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/app_master_ae.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/app_master_leg.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/app_server.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/app_slave.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/app_slave_ae.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/app_slave_leg.c" />
+            <file file_name="../../../../../../third_party/cordio/ble-profiles/sources/apps/app/app_terminal.c" />
+          </folder>
+
+          <folder Name="devices">
+            <file file_name="../../../../../../devices/am_devices_button.c" />
+            <file file_name="../../../../../../devices/am_devices_cooper.c" />
+            <file file_name="../../../../../../devices/am_devices_led.c" />
+          </folder>
+
+          <folder Name="segger">
+            <file file_name="../segger/startup_segger.s" />
+            <file file_name="../segger/SEGGER_THUMB_Startup.s" />
+          </folder>
+  </project>
+</solution>
+

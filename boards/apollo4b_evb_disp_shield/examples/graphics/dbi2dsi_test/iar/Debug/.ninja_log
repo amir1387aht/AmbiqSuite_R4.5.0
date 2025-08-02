@@ -1,0 +1,13 @@
+# ninja log v5
+0	515	7406077121238191	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/am_devices_dc_dsi_raydium.o	48bf8b1eed912f80
+518	1987	7406077135914968	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/dbi2dsi_test.o	f6c52b9dba48532c
+1992	2156	7406077137745010	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/am_util_stdio.o	6fae788bfd5355bd
+2159	2728	7406077143370607	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/nema_dc_hal.o	2379c6eb241d454b
+2731	3178	7406077147865345	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/am_util_delay.o	5a167b9258b1d8d4
+3180	3617	7406077152272246	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/am_resources.o	fc5005e379078f8
+3620	4111	7406077157189098	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/nema_hal.o	b736c61a55f35564
+4114	4181	7406077157979102	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/startup_iar.o	d42303c1ad2669c0
+4184	4231	7406077158509101	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/nema_event.o	294d5312b80eb319
+4233	4721	7406077163296525	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/nema_utils.o	1eb8f4f96879371b
+4723	4896	7406077165037598	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/dbi2dsi_test.out	105528434b8a2079
+4899	4918	7406077165443233	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb_disp_shield/examples/graphics/dbi2dsi_test/iar/bin/dbi2dsi_test.bin	78f3e77406893f5e

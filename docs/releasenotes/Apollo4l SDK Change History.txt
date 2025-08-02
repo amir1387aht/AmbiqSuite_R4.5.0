@@ -1,0 +1,262 @@
+**********************************************************************************************
+ 
+Apollo4 Lite / Apollo4 Blue Lite update release on 21June2024 (revision release_sdk_4_5_0-a1ef3b89f9).
+ 
+**********************************************************************************************
+----------------------------------------------------------------------------------------------
+Summary of Changes and Customer Impacts
+----------------------------------------------------------------------------------------------
+
+This is a combined release supporting updates to Apollo4/Apollo4 Blue RevB2 with an updated
+release of Apollo4 Plus/Apollo4 Blue Plus Rev C0 (KBR and KXR devices) and Apollo4 Lite /
+Apollo4 Blue Lite.
+
+This release includes the following:
+*	Beta support for SEGGER Embedded Studio.
+*	Support for Keil/ARMCC 5060750 has been deprecated.
+* 	Added SD Card Support, including several reference examples.
+*       Added LVGL v8.1.0 support, with hardware acceleration and additional examples. At this time,
+        examples are provided for IAR and GCC only. Note that lv_ambiq_touch.* is designed for use
+        with the TMA525 driver.  
+*       Added Visual Studio Code templates to hello_world and tinyusb_cdc_msc_freertos examples.
+*	Deprecated base addresses from am_reg_base_addresses.h
+*	Updated TinyUSB to v0.16.0.
+*       Several bug fixes with details below. New and updated errata will be provided in a forthcoming 
+        Apollo4 Lite Errata List release. 
+
+
+----------------------------------------------------------------------------------------------
+Software Known Issues, Updates, and Defect Fixes
+----------------------------------------------------------------------------------------------
+\mcu\apollo4l\regs\am_reg_base_addresses.h
+\mcu\apollo4l\regs\am_reg.h
+\mcu\apollo4l\hal\am_hal_ios.c
+*	Deprecated base addresses from reg_base_addresses.h. 
+	Please see \CMSIS\AmbiqMicro\Include\apollo4l.h for base addresses.
+
+\mcu\apollo4l\hal\mcu\am_hal_cachectrl.c
+* 	Moved polling for DAXIREADY to daxi_flush_invalidate() function instead of daxi_flush_complete(). 
+	DAXIREADY will now be polled immediately after writing DAXIFLUSHWRITE and APB sync, and before writing DAXIINVALIDATE.
+
+\mcu\apollo4l\hal\am_hal_gpio.h
+\mcu\apollo4l\hal\am_hal_card_host.*
+\mcu\apollo4l\hal\am_hal_card.*
+\mcu\apollo4l\hal\am_hal_sdhc.*
+*	SD Card support added
+
+\mcu\apollo4l\hal\am_hal_card_host.h
+\mcu\apollo4l\hal\am_hal_card.*
+\mcu\apollo4l\hal\am_hal_sdhc.*
+*	Added support for emmc scatter IO operation
+
+\mcu\apollo4l\hal\am_hal_clkgen.*
+*	Reformatted code and improved documentation for HFRC2adj
+*	Added am_hal_hfrc2_adj_control() API, which also replaces the code in am_hal_clkgen_control for the 
+	AM_HAL_CLKGEN_CONTROL_HF2ADJ_COMPUTE case statement. 
+*	ERR130: Added HFRC2adj algorithm supporting code in am_hal_clkgen_HFRC2_adj_recompute() and supporting functions.
+	Please see the Apollo4 Lite Errata document for more details.
+	New example tinyusb_cdc_hfrc2 for Apollo4 Plus EVBs provides example usage with USB high-speed.
+		Note that USB is not available on Apollo4 Lite, but the algorithm may be referenced. 
+
+\mcu\apollo4l\hal\am_hal_iom.*
+*	Exanded error handling in internal_iom_reset_on_error(), added timeouts to while loops, and
+	added workaround for a possible IOM hang condition.
+
+\mcu\apollo4l\hal\am_hal_rtc.*
+*	The Century bit toggles when CEB == 1 and ui32Year == 99 and thus cannot
+	handle ui32Year rollover from 99 to 00.
+*	Replaced ui32Century with ui32CenturyBit and deprecate ui32CenturyEnable
+	in am_hal_rtc_time_struct. Updated HAL implementation and rtc_print example
+	accordingly. 
+
+\mcu\apollo4l\hal\am_hal_uart.*
+*	Added am_hal_uart_interrupt_queue_service and associated functions
+	to support ISR handling of UART FIFOs (rx and tx).
+*	Fixed issue with certain functions returning from critical-section
+	with interrupts disabled. 
+
+\CMSIS\AmbiqMicro\Include\apollo4l.h
+\mcu\apollo4l\am_hal_adc.*
+*	Exposed ADC calibration control register. 
+*	Resolved ERR090 and ERR091 issues with updated initialization settings.
+	Minimum TRKCYC value is now 0.
+
+\mcu\apollo4l\am_hal_dcu.c
+*	Addressed issue with strict aliasing rule that could cause the 
+	manipulation of dcuVal to get optimized out.
+
+\mcu\apollo4l\hal\am_hal_mcu.h
+\mcu\apollo4l\am_hal_global.h
+*	Removed COMPILER_VERSION from am_hal_mcu.h and placed in am_hal_global.h.
+
+\mcu\apollo4l\hal\mcu\am_hal_mspi.*
+*	Added AM_HAL_MSPI_REQ_TIMING_SCAN_GET, AM_HAL_MSPI_REQ_NAND_FLASH_SENDADDR_DIS,
+	and AM_HAL_MSPI_REQ_NAND_FLASH_SENDADDR_EN enums for use in am_hal_mspi_ctrl().
+
+\mcu\apollo4l\am_hal_pdm.c
+*	Reduced delay in am_hal_pdm_enable from 5000us to 50us. 
+
+\mcu\apollo4l\am_hal_security.c
+*	Added check for CRC error.
+
+\mcu\apollo4l\hal\am_hal_stimer.c
+*	Removed compare enable/disable in function am_hal_stimer_compare_delta_set.
+	Due to latency for writes to the compare register to take effect, it is
+	possible that the application could get a stale interrupt even after the
+	API returns. 
+
+\mcu\apollo4l\am_hal_timer.*
+*	Removed unused am_hal_timer_select_e.
+
+\third_party\cordio\ble-host\sources\hci\ambiq\cooper\ble_fw_image.h
+*	Updated BLE controller firmware to v1.22.0.0
+
+\third_party\cordio\ble-host\sources\hci\ambiq\cooper\hci_drv_cooper.c
+\boards\apollo4l_blue_evb\bsp\am_bsp.c
+*	Updated to configure the BLE controller reset pin to low level in BSP init
+	and HCIDrvRadioShutDown(). This is to make the BLE controller reset pin a fixed
+	low-level as soon as possible after MCU bootup and BLE controller shutdown
+	to minimize the time the reset pin is in a floating state. 
+
+\third_party\cordio\ble-host\sources\hci\ambiq\cooper\hci_drv_cooper.*
+*	Please see \docs\ble_firmware_release_notes for list of updates.
+
+\third_party\cordio\ble-host\sources\hci\ambiq\hci_core.c
+*	Fixed code logic when sending packet fail if packet is fragmented.
+
+\third_party\cordio\ble-host\sources\hci\ambiq\hci_evt.c
+*	Fixed vendor complete event returned parameter parse issue. 
+
+\third_party\cordio\ble-host\sources\stack\att\attc_main.c
+\third_party\cordio\ble-host\sources\stack\att\attc_proc.c
+\third_party\cordio\ble-host\sources\stack\att\attc_sign.c
+\third_party\cordio\ble-host\sources\stack\att\atts_main.c
+\third_party\cordio\ble-host\sources\stack\att\atts_write.c
+\third_party\cordio\ble-profiles\sources\services\svc_core.c
+*	Fixed an array out of bounds issue, which could cause service discovery failure
+	after disconnection and reconnection in multi-link scenarios. 
+*	Updated length of default device name from 6 to 11.
+
+
+\third_party\cordio\ble-profiles\sources\apps\app\common\app_db.c
+*	Fixed an NVM DB records start address issue due to a data type error. 
+
+\third_party\cordio\ble-profiles\sources\apps\app\common\app_hw.c
+*	Changed battery level to trigger notification in AppHWBattRead() for test purposes.
+
+\third_party\cordio\ble-profiles\sources\apps\fit\fit_main.c
+*	Set connection idle period from 3000ms to 100ms to fix pairing issue. 
+
+\third_party\cordio\ble-profiles\sources\apps\hidapp\hidapp_main.c
+*	Added advertising state change message for display in SWO log. 
+
+\third_party\cordio\ble-profiles\sources\profiles\bas\bas_main.c
+\third_party\cordio\ble-profiles\sources\profiles\hrps\hrps_main.c
+*	If last notification confirmation not received, resend the last battery level and 
+	heart rate value.
+
+\third_party\cordio\wsf\include\hci_defs.h
+*	Modified HCI_EVT_VENDOR_SPEC_CMD_CMPL_PARAM_MAX_LEN to 130 to accommodate longer
+	vendor command complete return values.
+
+\third_party\cordio\wsf\include\wsf_msg.*
+*	Moved wsfMsg_tag struct to wsf_msg header file.
+
+\third_party\crypto\host\include\config-cc312-apollo4-no-os.h
+*	Defined MBEDTLS_DHM_ALT, enabling DHM hardware acceleration by default. 
+*	Undefined MBEDTLS_PLATFORM_SNPRINTF_ALT. Note that on Windows it is 
+	required and will be enabled automatically by check_config.h.
+
+\boards\apollo4l_blue_evb\bsp\am_bsp.c
+\boards\apollo4l_evb\bsp\am_bsp.c
+*	Updated am_bsp_itm_printf_disable() to reconfigure SWO pin as GPIO and drive high
+	before disabling TPIU. It was found that disabling the TPIU pulls the SWO line low,
+	which can occasionally cause SWO output errors. 
+
+\third_party\FreeRTOSv10.5.1\Source\portable\GCC\AMapollo4\port.c
+*	Updated software to prevent executing a "do nothing" interrupt upon waking,
+	which would cause the scheduler to restart 1 tick later than expected. 
+
+\utils\am_util_bootloader.*
+\utils\am_util_multi_boot.*
+\utils\am_util_multi_boot_private.h
+\ambiq_ble\profiles\amota\amotas_main.c
+*	These files now replace the contents of \bootloader\. The \bootloader\ directory
+	has been deprecated. 
+*	Updated calls for am_util_* functions.
+
+\utils\am_util_fault_isr.c
+*	Updated to using a local stack by default, which can be disabled by defining
+	#define AM_HF_NO_LOCAL_STACK. By disabling the local stack, it will revert to
+	using the existing MSP. 
+
+\ambiq_ble\apps\ancs\ancs_main.c
+*	Fixed incoming automatic call rejection issue.
+
+\ambiq_ble\apps\dtm_module\dtm_main.c
+*	Implemented Cooper Exchange Memory test items. Enable COOPER_ERAM_TEST so
+	testing will be executed after application initialization. 
+
+\devices\am_devices_cooper.*
+*	Added force update for BLE controller firmware update INVALID_OPERATION error. 
+*	Added timeout for IRQ reading infinite loop.
+*	Check return status of am_hal_mcu_control() in am_devices_cooper_init().
+*	Added BLE controller SBL version support by repurposing maxImageSize with an additional 
+	8-bits for SBL version. Reduced maxIMageSize length to 24-bit. 
+*	Reformated macro definitions, redefined am_secboot_wired_msghdr_t to am_sbl_host_msg_hdr_t.
+*	Added NVDS tag to configure instant delay used in LLCP packet.
+
+\devices\am_devices_dc_dsi_raydium.*
+\devices\am_devices_dc_xspi_raydium.*
+\devices\am_devices_dc_display_generic.*
+\devices\am_devices_mspi_raydium.*
+*	Added support for flip along x-, y-, or both x- and y-axis. 
+	
+\devices\am_devices_dc_display_generic.*
+*	Resolved issue with TE and Touch GPIO using the same GPIO service group. 
+*	Updated to resolve issues with LVGL and IAR/Keil6. 
+
+\devices\am_devices_display_types.h
+*	Added pixel_format_t enums and am_devices_dc_config_t structure.
+
+\devices\am_devices_emmc_rpmb.c
+*	Added authentication key failure error for debug. 
+
+\devices\am_devices_mspi_atxp032.*
+*	Updated driver timing scan and added functionality to allow the timing scan to be overriden. 
+*	Added function to reset the store timing config stored bolean. 
+*	Fixed a bug where turnaround is set incorrectly without timing scan.
+
+\devices\am_devices_mspi_atxp032.c
+\devices\am_devices_mspi_ds35x1ga.c
+\devices\am_devices_mspi_psram_aps12808l.c
+\devices\am_devices_mspi_psram_aps25616n.c
+\devices\am_devices_mspi_is25wx064.c
+*	Updated for DAXI buffer alignment restrictions.
+*	Updated buffer alignment in MSPI examples.
+*	Check DMA status after completion.
+
+\devices\am_devices_mspi_atxp032.c
+\devices\am_devices_mspi_psram_aps25616n.c
+\devices\am_devices_mspi_psram_aps6404l.c
+\devices\am_devices_mspi_is25wx064.c
+\devices\am_devices_mspi_psram_w958d6nw.c
+*	Fixed potential bugs related to XIP and scrambling configs. 
+
+\devices\am_devices_mspi_is25wx064.c
+*	Updated drivers for new internal is25wx064_power_reset function.
+
+\devices\am_devices_mspi_psram_aps25616n.*
+*	Added mspi xip reconfigure function.
+
+\devices\am_devices_spipsram.c
+*	Added delay to spi_psram_nonblocking_transfer() function to make sure
+	there is enough space in the pending queue. 
+
+\am_devices_sdio_rs9116.*
+*	Added new SDIO WIFI driver for reference. Accompanies a new reference example
+	sdio_wifi_interface_raw_read_write in apollo4l_evb and apollo4p_evb.
+
+\devices\am_devices_tma525.*
+*	Added am_devices_tc_tma525_info_t and touch_info_t struct.
+*	Added non-blocking functionality. 	

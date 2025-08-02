@@ -1,0 +1,11 @@
+# ninja log v5
+1	492	7406195689037168	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/binary_counter/iar/bin/am_devices_led.o	c8ff12b37b0b3b72
+494	661	7406195690797162	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/binary_counter/iar/bin/am_util_stdio.o	f877ea77c6451043
+665	1114	7406195695269582	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/binary_counter/iar/bin/am_util_delay.o	6ed43f635747b5c5
+1116	1581	7406195699932087	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/binary_counter/iar/bin/am_util_id.o	c2eb67fa1f7ec461
+1584	2026	7406195704379908	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/binary_counter/iar/bin/am_resources.o	9fddcdb4ee198508
+2028	2483	7406195708962203	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/binary_counter/iar/bin/am_util_faultisr.o	fb9307e227209720
+2486	2958	7406195713692239	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/binary_counter/iar/bin/binary_counter.o	394286c459c0654b
+2961	3027	7406195714480032	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/binary_counter/iar/bin/startup_iar.o	e60ed50d34030233
+3030	3187	7406195715965681	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/binary_counter/iar/bin/binary_counter.out	dbd9ab007b79f840
+3189	3201	7406195716305723	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/binary_counter/iar/bin/binary_counter.bin	6c112003fbf05505

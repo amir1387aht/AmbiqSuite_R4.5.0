@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['i2c_0',['I2C',['../group__iom4__4b.html',1,'IOM - IO Master (SPI/I2C)'],['../group__iom4__4p.html',1,'IOM - IO Master (SPI/I2C)'],['../group__iom4__4l.html',1,'IOM - IO Master (SPI/I2C)'],['../group__ios4__4b.html',1,'IOS - IO Slave (SPI/I2C)'],['../group__ios4__4p.html',1,'IOS - IO Slave (SPI/I2C)'],['../group__ios4__4l.html',1,'IOS - IO Slave (SPI/I2C)']]],
+  ['i2c_20fram_20driver_1',['MB85RC256V I2C FRAM driver',['../group__mb85rc256v.html',1,'']]],
+  ['i2c_20touch_20driver_2',['TMA525 - I2C Touch Driver',['../group__tma525.html',1,'']]],
+  ['i2s_20inter_20ic_20sound_3',['I2S Inter IC Sound',['../group__i2s4__4b.html',1,'I2S - Inter-IC Sound'],['../group__i2s4__4p.html',1,'I2S - Inter-IC Sound'],['../group__i2s4__4l.html',1,'I2S - Inter-IC Sound']]],
+  ['ic_20sound_4',['IC Sound',['../group__i2s4__4b.html',1,'I2S - Inter-IC Sound'],['../group__i2s4__4p.html',1,'I2S - Inter-IC Sound'],['../group__i2s4__4l.html',1,'I2S - Inter-IC Sound']]],
+  ['id_20identification_5',['ID - Identification',['../group__id.html',1,'']]],
+  ['identification_6',['ID - Identification',['../group__id.html',1,'']]],
+  ['implementation_7',['Implementation',['../group__queue4__4b.html',1,'Queue Implementation'],['../group__queue4__4p.html',1,'Queue Implementation'],['../group__queue4__4l.html',1,'Queue Implementation'],['../group__stdio.html',1,'STDIO - Ambiq&apos;s Implementation']]],
+  ['input_20output_8',['Input Output',['../group__gpio__4b.html',1,'GPIO - General Purpose Input Output'],['../group__gpio__4p.html',1,'GPIO - General Purpose Input Output'],['../group__gpio__4l.html',1,'GPIO - General Purpose Input Output']]],
+  ['instrumentation_20trace_20macrocell_9',['Instrumentation Trace Macrocell',['../group__itm4__4b.html',1,'ITM - Instrumentation Trace Macrocell'],['../group__itm4__4p.html',1,'ITM - Instrumentation Trace Macrocell'],['../group__itm4__4l.html',1,'ITM - Instrumentation Trace Macrocell']]],
+  ['inter_20ic_20sound_10',['Inter IC Sound',['../group__i2s4__4b.html',1,'I2S - Inter-IC Sound'],['../group__i2s4__4p.html',1,'I2S - Inter-IC Sound'],['../group__i2s4__4l.html',1,'I2S - Inter-IC Sound']]],
+  ['interface_11',['Interface',['../group__dsi__4b.html',1,'DSI - Display Serial Interface'],['../group__dsi__4p.html',1,'DSI - Display Serial Interface']]],
+  ['interface_20unit_12',['Interface Unit',['../group__tpiu4__4b.html',1,'TPIU - Trace Port Interface Unit'],['../group__tpiu4__4p.html',1,'TPIU - Trace Port Interface Unit'],['../group__tpiu4__4l.html',1,'TPIU - Trace Port Interface Unit']]],
+  ['interrupt_20arm_20nvic_20support_20functions_13',['Interrupt ARM NVIC support functions',['../group__mcu__interrupt__4b.html',1,'Interrupt - ARM NVIC support functions'],['../group__mcu__interrupt__4p.html',1,'Interrupt - ARM NVIC support functions'],['../group__mcu__interrupt__4l.html',1,'Interrupt - ARM NVIC support functions']]],
+  ['interrupt_20dsp_20nvic_20support_20functions_14',['Interrupt DSP NVIC support functions',['../group__dsp__interrupt__4b.html',1,'Interrupt (DSP NVIC support functions)'],['../group__dsp__interrupt.html',1,'Interrupt (DSP NVIC support functions)']]],
+  ['io_20master_20spi_20i2c_15',['IO Master SPI I2C',['../group__iom4__4b.html',1,'IOM - IO Master (SPI/I2C)'],['../group__iom4__4p.html',1,'IOM - IO Master (SPI/I2C)'],['../group__iom4__4l.html',1,'IOM - IO Master (SPI/I2C)']]],
+  ['io_20slave_20spi_20i2c_16',['IO Slave SPI I2C',['../group__ios4__4b.html',1,'IOS - IO Slave (SPI/I2C)'],['../group__ios4__4p.html',1,'IOS - IO Slave (SPI/I2C)'],['../group__ios4__4l.html',1,'IOS - IO Slave (SPI/I2C)']]],
+  ['iom_20io_20master_20spi_20i2c_17',['IOM IO Master SPI I2C',['../group__iom4__4b.html',1,'IOM - IO Master (SPI/I2C)'],['../group__iom4__4p.html',1,'IOM - IO Master (SPI/I2C)'],['../group__iom4__4l.html',1,'IOM - IO Master (SPI/I2C)']]],
+  ['ios_20io_20slave_20spi_20i2c_18',['IOS IO Slave SPI I2C',['../group__ios4__4b.html',1,'IOS - IO Slave (SPI/I2C)'],['../group__ios4__4p.html',1,'IOS - IO Slave (SPI/I2C)'],['../group__ios4__4l.html',1,'IOS - IO Slave (SPI/I2C)']]],
+  ['is25wx064_20mspi_20flash_20driver_19',['IS25WX064 MSPI FLASH Driver',['../group__mspi__serial__flash.html',1,'']]],
+  ['isr_20',['FaultISR - Extended Hard Fault ISR',['../group__faultisr.html',1,'']]],
+  ['itm_20instrumentation_20trace_20macrocell_21',['ITM Instrumentation Trace Macrocell',['../group__itm4__4b.html',1,'ITM - Instrumentation Trace Macrocell'],['../group__itm4__4p.html',1,'ITM - Instrumentation Trace Macrocell'],['../group__itm4__4l.html',1,'ITM - Instrumentation Trace Macrocell']]]
+];

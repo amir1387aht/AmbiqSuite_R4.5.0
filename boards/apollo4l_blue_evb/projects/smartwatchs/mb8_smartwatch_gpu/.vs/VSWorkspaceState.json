@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\helpers",
+    "\\src\\helpers\\display",
+    "\\src\\helpers\\utils",
+    "\\src\\screens",
+    "\\src\\screens\\menu"
+  ],
+  "SelectedNode": "\\CppProperties.json",
+  "PreviewInSolutionExplorer": false
+}

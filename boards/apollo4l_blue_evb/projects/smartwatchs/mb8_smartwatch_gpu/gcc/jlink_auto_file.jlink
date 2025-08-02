@@ -1,0 +1,3 @@
+connect
+loadfile "./bin/mb8_smartwatch.bin", 0x18000, reset
+exit

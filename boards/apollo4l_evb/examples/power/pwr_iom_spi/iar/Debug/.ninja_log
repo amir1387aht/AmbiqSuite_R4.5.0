@@ -1,0 +1,13 @@
+# ninja log v5
+1	439	7406130725723529	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/am_resources.o	1eefe0c2ed5f52c3
+442	855	7406130729897887	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/am_util_delay.o	e6c47e9016350447
+859	1286	7406130734187976	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/pwr_control_utils.o	bd3cdffa71797442
+1289	1712	7406130738467900	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/am_util_faultisr.o	12b000fc212ae09b
+1715	2130	7406130742637909	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/pwr_gpio_utils.o	597c7f8edc3456e8
+2133	2296	7406130744367890	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/am_util_stdio.o	ee15f67ea8dbf57f
+2299	2360	7406130745027901	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/startup_iar.o	e7d7041dbd557eff
+2362	2825	7406130749587882	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.o	85b41cfe0e76794a
+2827	3244	7406130753777887	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/pwr_timer_utils.o	9c4a9fd66b6af534
+3247	3686	7406130758189673	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_utils.o	74336cef4f3adece
+3689	3822	7406130759550946	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.out	56160828b1c535b4
+3825	3837	7406130759870964	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4l_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.bin	58b3b1ee4d0e9b17

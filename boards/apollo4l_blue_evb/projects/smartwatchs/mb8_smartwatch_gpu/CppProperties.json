@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x64"
+      ],
+      "name": "x64-Debug",
+      "includePath": [
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\utils\\**",
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\devices\\**",
+        "${workspaceRoot}\\..\\..\\..\\bsp\\**",
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\mcu\\apollo4l\\**",
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**"
+      ],
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ]
+}

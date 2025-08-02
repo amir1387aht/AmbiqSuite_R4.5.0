@@ -1,0 +1,13 @@
+# ninja log v5
+0	476	7406074228047092	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/am_resources.o	36dcd3bff5b29199
+478	933	7406074232637071	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/am_util_delay.o	dcb5caf609838de0
+938	1396	7406074237253566	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/am_util_faultisr.o	2128311c509a1793
+1398	1865	7406074241955954	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/pwr_control_utils.o	f7c94f6abe043bdc
+1868	2321	7406074246514992	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/pwr_gpio_utils.o	64f163e6cd11bf0
+2324	2490	7406074248283126	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/am_util_stdio.o	b04649c0c8f4e441
+2493	2999	7406074253284438	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.o	957db9bec875edf5
+3000	3067	7406074254056845	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/startup_iar.o	516fdcd6ff1d9d82
+3070	3530	7406074258608690	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/pwr_timer_utils.o	6d01290eae624307
+3533	4017	7406074263478680	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_utils.o	e66fa7c5b275dc84
+4020	4163	7406074264892600	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.out	4777a5aa54dc6e27
+4166	4173	7406074265212610	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4b_evb/examples/power/pwr_iom_spi/iar/bin/pwr_iom_spi.bin	6ad2b476c558b5d7

@@ -1,0 +1,11 @@
+# ninja log v5
+1	464	7406195962208410	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/hello_world_uart/iar/bin/am_resources.o	62449b69b62af902
+466	910	7406195966666589	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/hello_world_uart/iar/bin/am_util_delay.o	f4f9f19b4a18fc9f
+914	1366	7406195971239017	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/hello_world_uart/iar/bin/am_util_id.o	8288fee08018cc4
+1368	1832	7406195975880243	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/hello_world_uart/iar/bin/am_util_faultisr.o	ee9764bc145d035f
+1835	1999	7406195977630222	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/hello_world_uart/iar/bin/am_util_stdio.o	608202657a50cf06
+2001	2082	7406195978470239	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/hello_world_uart/iar/bin/am_util_string.o	705e1e7462df2048
+2084	2603	7406195983589587	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/hello_world_uart/iar/bin/hello_world_uart.o	9057cadd5d85c637
+2605	2672	7406195984355169	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/hello_world_uart/iar/bin/startup_iar.o	6f80af6a5556c196
+2675	2806	7406195985630750	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/hello_world_uart/iar/bin/hello_world_uart.out	c4c69aacc553b468
+2808	2821	7406195985950753	C:/jenkins-agent/workspace/ambiqsuite4_rel/workspace/boards/apollo4p_evb/examples/peripherals/hello_world_uart/iar/bin/hello_world_uart.bin	a1c676091b0cdc1f

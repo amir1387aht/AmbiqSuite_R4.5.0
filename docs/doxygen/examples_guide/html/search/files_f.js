@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['l0_5f360x360_5fl8_2eh_0',['L0_360x360_l8.h',['../L0__360x360__l8_8h.html',1,'']]],
+  ['led_5ftask_2eh_1',['led_task.h',['../led__task_8h.html',1,'']]],
+  ['letters_2ec_2',['letters.c',['../ref-sp_2letters_8c.html',1,'(Global Namespace)'],['../ref_2letters_8c.html',1,'(Global Namespace)']]],
+  ['license_2emd_3',['LICENSE.md',['../LICENSE_8md.html',1,'']]],
+  ['linear_5falg_2dmid_2d100x100_2dsp_2ec_4',['linear_alg-mid-100x100-sp.c',['../linear__alg-mid-100x100-sp_8c.html',1,'']]],
+  ['linpack_2ec_5',['linpack.c',['../linpack_8c.html',1,'']]],
+  ['linpack_2eh_6',['linpack.h',['../linpack_8h.html',1,'']]],
+  ['loops_2dall_2dmid_2d10k_2dsp_2ec_7',['loops-all-mid-10k-sp.c',['../loops-all-mid-10k-sp_8c.html',1,'']]],
+  ['loops_2ec_8',['loops.c',['../loops_8c.html',1,'']]],
+  ['loops_2eh_9',['loops.h',['../loops_8h.html',1,'']]],
+  ['low_5fpower_5fconfig_2ec_10',['low_power_config.c',['../simple__pwm_2src_2low__power__config_8c.html',1,'(Global Namespace)'],['../timer__pwm__output_2src_2low__power__config_8c.html',1,'(Global Namespace)']]],
+  ['low_5fpower_5fconfig_2eh_11',['low_power_config.h',['../simple__pwm_2src_2low__power__config_8h.html',1,'(Global Namespace)'],['../timer__pwm__output_2src_2low__power__config_8h.html',1,'(Global Namespace)']]],
+  ['lv_5fconf_2eh_12',['lv_conf.h',['../lvgl__benchmark_2src_2lv__conf_8h.html',1,'(Global Namespace)'],['../lvgl__cellular__menu_2src_2lv__conf_8h.html',1,'(Global Namespace)'],['../lvgl__test_2src_2lv__conf_8h.html',1,'(Global Namespace)'],['../lvgl__widget__examples_2src_2lv__conf_8h.html',1,'(Global Namespace)']]],
+  ['lv_5fdemo_5fbenchmark_2ec_13',['lv_demo_benchmark.c',['../lv__demo__benchmark_8c.html',1,'']]],
+  ['lv_5fdemo_5fbenchmark_2eh_14',['lv_demo_benchmark.h',['../lv__demo__benchmark_8h.html',1,'']]],
+  ['lvgl_5fbenchmark_2ec_15',['lvgl_benchmark.c',['../lvgl__benchmark_8c.html',1,'']]],
+  ['lvgl_5fbenchmark_2eh_16',['lvgl_benchmark.h',['../lvgl__benchmark_8h.html',1,'']]],
+  ['lvgl_5fcellular_5fmenu_2ec_17',['lvgl_cellular_menu.c',['../lvgl__cellular__menu_8c.html',1,'']]],
+  ['lvgl_5fcellular_5fmenu_2eh_18',['lvgl_cellular_menu.h',['../lvgl__cellular__menu_8h.html',1,'']]],
+  ['lvgl_5ftest_2ec_19',['lvgl_test.c',['../lvgl__test_8c.html',1,'']]],
+  ['lvgl_5ftest_2eh_20',['lvgl_test.h',['../lvgl__test_8h.html',1,'']]],
+  ['lvgl_5fwidget_5fexamples_2ec_21',['lvgl_widget_examples.c',['../lvgl__widget__examples_8c.html',1,'']]],
+  ['lvgl_5fwidget_5fexamples_2eh_22',['lvgl_widget_examples.h',['../lvgl__widget__examples_8h.html',1,'']]]
+];
