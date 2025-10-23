@@ -5,7 +5,7 @@
 ---
 
 ## 🎯 Summary
-This repository contains a custom firmware build for the Mi Band 8 (Apollo4BL-based). Watch the video (here)[https://youtu.be/4HnEjwFwrM8?si=52hVDTkAnvSoc9ze]
+This repository contains a custom firmware build for the Mi Band 8 (Apollo4BL-based). Watch the video [here](https://youtu.be/4HnEjwFwrM8?si=52hVDTkAnvSoc9ze)
 
 ---
 
